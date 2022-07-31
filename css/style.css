@@ -13,6 +13,7 @@ html {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
+  color: #4a4a4a;
 }
 
 body {
@@ -90,7 +91,7 @@ body {
   left: 20px;
   height: 20px;
   width: 20px;
-  background: url("/../img/Checkbox.svg") 20px 20px;
+  background: url("/.ticket-body./img/Checkbox.svg") 20px 20px;
 }
 
 .filters__item input:checked ~ .checkmark {
@@ -124,6 +125,7 @@ body {
   cursor: pointer;
   border: 1px solid #dfe5ec;
   background-color: #fff;
+  color: inherit;
 }
 
 .sort-tabs__button:hover {
@@ -148,4 +150,63 @@ body {
 
 .sort-tabs__button--active:hover {
   background-color: #2196f3;
+}
+
+.ticket {
+  width: 100%;
+  height: 184px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 21px;
+}
+
+.ticket-header__price {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  color: #2196f3;
+}
+
+.route {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 141px;
+  padding-bottom: 12px;
+}
+
+.column__title {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #a0b0b9;
+}
+
+.column__content {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.more-button {
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 50px;
 }
