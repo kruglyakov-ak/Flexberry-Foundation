@@ -20,25 +20,38 @@
     </header>
 
     <main class="main">
-        <h1 class="main__title visually-hidden">Aviasales поиск авиаилетов</h1>
-      <section class="sort">
-        <ul class="sort-tabs">
-          <li class="sort-tabs__item">
-            <button class="sort-tabs__button sort-tabs__button--active" type="button">
-              Самый дешевый
-            </button>
-          </li>
-          <li class="sort-tabs__item">
-            <button class="sort-tabs__button" type="button">
-              Самый быстрый
-            </button>
-          </li>
-          <li class="sort-tabs__item">
-            <button class="sort-tabs__button" type="button">Оптимальный</button>
-          </li>
-        </ul>
-      </section>
+      <h1 class="main__title visually-hidden">Aviasales поиск авиаилетов</h1>
+
+      <aside class="filters">
+        <form>
+          <h2 class="filters__title">Количество пересадок</h2>
+        </form>
+      </aside>
+
       <section class="offers">
+        <div class="sort">
+          <ul class="sort-tabs">
+            <li class="sort-tabs__item">
+              <button
+                class="sort-tabs__button sort-tabs__button--active"
+                type="button"
+              >
+                Самый дешевый
+              </button>
+            </li>
+            <li class="sort-tabs__item">
+              <button class="sort-tabs__button" type="button">
+                Самый быстрый
+              </button>
+            </li>
+            <li class="sort-tabs__item">
+              <button class="sort-tabs__button" type="button">
+                Оптимальный
+              </button>
+            </li>
+          </ul>
+        </div>
+
         <article class="ticket">
           <div class="ticket-header">
             <p class="ticket-header__price">13 400 Р</p>
@@ -239,10 +252,6 @@
           Показать еще 5 билетов!
         </button>
       </section>
-
-      <aside class="filters">
-        <form action=""></form>
-      </aside>
     </main>
     <script type="module" src="/js/main.js"></script>
   </body>
