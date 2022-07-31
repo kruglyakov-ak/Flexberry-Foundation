@@ -33,11 +33,6 @@ body {
   overflow: hidden;
 }
 
-.main {
-  display: flex;
-  padding-top: 27px;
-}
-
 .filters {
   width: 232px;
   height: 252px;
