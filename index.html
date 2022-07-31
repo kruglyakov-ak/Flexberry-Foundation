@@ -11,19 +11,73 @@
       <a class="header__logo-link" href="#">
         <img
           class="header__logo"
-          src="./img/logo.png"
+          src="./img/Logo.svg"
           alt="logo"
-          width="60"
-          height="60"
+          width="82"
+          height="89"
         />
       </a>
     </header>
 
     <main class="main">
-      <section class="sort">
+      <h1 class="main__title visually-hidden">Aviasales поиск авиаилетов</h1>
+
+      <aside class="filters">
+        <h2 class="filters__title">Количество пересадок</h2>
+
+        <label>
+          <div class="filters__item">
+            <input type="checkbox" id="all" name="all" />
+            <span class="checkmark"></span>
+            Все
+          </div>
+        </label>
+
+        <label>
+          <div class="filters__item">
+            <input
+              type="checkbox"
+              id="non-transfer"
+              name="non-transfer"
+              checked
+            />
+            <span class="checkmark"></span>
+            Без пересадок
+          </div>
+        </label>
+
+        <label>
+          <div class="filters__item">
+            <input type="checkbox" id="1-transfer" name="1-transfer" checked />
+            <span class="checkmark"></span>
+            1 пересадка
+          </div>
+        </label>
+
+        <label>
+          <div class="filters__item">
+            <input type="checkbox" id="2-transfer" name="2-transfer" checked />
+            <span class="checkmark"></span>
+            2 пересадки
+          </div>
+        </label>
+
+        <label>
+          <div class="filters__item">
+            <input type="checkbox" id="3-transfer" name="3-transfer" />
+            <span class="checkmark"></span>
+            3 пересадки
+          </div>
+        </label>
+      </aside>
+
+      <section class="offers">
         <ul class="sort-tabs">
           <li class="sort-tabs__item">
-            <button class="sort-tabs__button sort-tabs__button--active" type="button">
+            <button
+              class="sort-tabs__button sort-tabs__button--active"
+              type="button"
+            >
               Самый дешевый
             </button>
           </li>
@@ -36,8 +90,7 @@
             <button class="sort-tabs__button" type="button">Оптимальный</button>
           </li>
         </ul>
-      </section>
-      <section class="offers">
+
         <article class="ticket">
           <div class="ticket-header">
             <p class="ticket-header__price">13 400 Р</p>
@@ -49,34 +102,45 @@
               height="36"
             />
           </div>
-          <div class="ticket-body">
-            <table class="ticket-body__segment-route">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>10:45 – 08:00</td>
-                <td>21ч 15м</td>
-                <td>HKG, JNB</td>
-              </tr>
-            </table>
 
-            <table class="ticket-body__segment-route-back">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>11:20 – 00:50</td>
-                <td>13ч 30м</td>
-                <td>HKG</td>
-              </tr>
-            </table>
+
+          <div class="ticket-body">
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">10:45 – 08:00</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">21ч 15м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">2 пересадки</div>
+                <div class="column__content">HKG, JNB</div>
+              </div>
+            </div>
+
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">11:20 – 00:50</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">13ч 30м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">1 пересадка</div>
+                <div class="column__content">HKG</div>
+              </div>
+            </div>
           </div>
         </article>
+
         <article class="ticket">
           <div class="ticket-header">
             <p class="ticket-header__price">13 400 Р</p>
@@ -88,34 +152,46 @@
               height="36"
             />
           </div>
-          <div class="ticket-body">
-            <table class="ticket-body__segment-route">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>10:45 – 08:00</td>
-                <td>21ч 15м</td>
-                <td>HKG, JNB</td>
-              </tr>
-            </table>
 
-            <table class="ticket-body__segment-route-back">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>11:20 – 00:50</td>
-                <td>13ч 30м</td>
-                <td>HKG</td>
-              </tr>
-            </table>
+
+          <div class="ticket-body">
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">10:45 – 08:00</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">21ч 15м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">2 пересадки</div>
+                <div class="column__content">HKG, JNB</div>
+              </div>
+            </div>
+
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">11:20 – 00:50</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">13ч 30м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">1 пересадка</div>
+                <div class="column__content">HKG</div>
+              </div>
+            </div>
           </div>
+
         </article>
+
         <article class="ticket">
           <div class="ticket-header">
             <p class="ticket-header__price">13 400 Р</p>
@@ -127,34 +203,46 @@
               height="36"
             />
           </div>
-          <div class="ticket-body">
-            <table class="ticket-body__segment-route">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>10:45 – 08:00</td>
-                <td>21ч 15м</td>
-                <td>HKG, JNB</td>
-              </tr>
-            </table>
 
-            <table class="ticket-body__segment-route-back">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>11:20 – 00:50</td>
-                <td>13ч 30м</td>
-                <td>HKG</td>
-              </tr>
-            </table>
+
+          <div class="ticket-body">
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">10:45 – 08:00</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">21ч 15м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">2 пересадки</div>
+                <div class="column__content">HKG, JNB</div>
+              </div>
+            </div>
+
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">11:20 – 00:50</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">13ч 30м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">1 пересадка</div>
+                <div class="column__content">HKG</div>
+              </div>
+            </div>
           </div>
+
         </article>
+
         <article class="ticket">
           <div class="ticket-header">
             <p class="ticket-header__price">13 400 Р</p>
@@ -166,34 +254,46 @@
               height="36"
             />
           </div>
-          <div class="ticket-body">
-            <table class="ticket-body__segment-route">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>10:45 – 08:00</td>
-                <td>21ч 15м</td>
-                <td>HKG, JNB</td>
-              </tr>
-            </table>
 
-            <table class="ticket-body__segment-route-back">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>11:20 – 00:50</td>
-                <td>13ч 30м</td>
-                <td>HKG</td>
-              </tr>
-            </table>
+
+          <div class="ticket-body">
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">10:45 – 08:00</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">21ч 15м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">2 пересадки</div>
+                <div class="column__content">HKG, JNB</div>
+              </div>
+            </div>
+
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">11:20 – 00:50</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">13ч 30м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">1 пересадка</div>
+                <div class="column__content">HKG</div>
+              </div>
+            </div>
           </div>
+
         </article>
+
         <article class="ticket">
           <div class="ticket-header">
             <p class="ticket-header__price">13 400 Р</p>
@@ -205,43 +305,50 @@
               height="36"
             />
           </div>
+
+
           <div class="ticket-body">
-            <table class="ticket-body__segment-route">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>10:45 – 08:00</td>
-                <td>21ч 15м</td>
-                <td>HKG, JNB</td>
-              </tr>
-            </table>
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">10:45 – 08:00</div>
+              </div>
 
-            <table class="ticket-body__segment-route-back">
-              <tr>
-                <td>MOW – HKT</td>
-                <td>В пути</td>
-                <td>2 пересадки</td>
-              </tr>
-              <tr>
-                <td>11:20 – 00:50</td>
-                <td>13ч 30м</td>
-                <td>HKG</td>
-              </tr>
-            </table>
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">21ч 15м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">2 пересадки</div>
+                <div class="column__content">HKG, JNB</div>
+              </div>
+            </div>
+
+            <div class="route">
+              <div class="column">
+                <div class="column__title">MOW – HKT</div>
+                <div class="column__content">11:20 – 00:50</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">В пути</div>
+                <div class="column__content">13ч 30м</div>
+              </div>
+
+              <div class="column">
+                <div class="column__title">1 пересадка</div>
+                <div class="column__content">HKG</div>
+              </div>
+            </div>
           </div>
-        </article>
 
+        </article>
+        
         <button type="button" class="more-button">
           Показать еще 5 билетов!
         </button>
       </section>
-
-      <aside class="filters">
-        <form action=""></form>
-      </aside>
     </main>
     <script type="module" src="/js/main.js"></script>
   </body>
