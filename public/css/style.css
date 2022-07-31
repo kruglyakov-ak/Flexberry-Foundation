@@ -91,7 +91,7 @@ body {
   left: 20px;
   height: 20px;
   width: 20px;
-  background: url("/.ticket-body./img/Checkbox.svg") 20px 20px;
+  background: url("/../img/Checkbox.svg") 20px 20px;
 }
 
 .filters__item input:checked ~ .checkmark {
