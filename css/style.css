@@ -49,7 +49,6 @@ body {
   height: 252px;
   background-color: #fff;
   margin-right: 20px;
-  padding-left: 20px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
@@ -57,10 +56,49 @@ body {
 .filters__title {
   margin: 0;
   padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
   line-height: 12px;
   font-size: 12px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.filters__item {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 50px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+}
+
+.filters__item input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  height: 20px;
+  width: 20px;
+  background: url("/../img/Checkbox.svg") 20px 20px;
+}
+
+.filters__item input:checked ~ .checkmark {
+  background: url("/../img/Checkbox-checked.svg") 20px 20px;
+}
+
+.filters__item:hover {
+  background-color: #f1fcff;
 }
 
 .offers {
