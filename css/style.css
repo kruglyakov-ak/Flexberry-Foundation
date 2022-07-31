@@ -26,3 +26,7 @@ body {
     width: 1px !important;
     overflow: hidden;
 }
+
+.header {
+    padding-top: 40px;
+}
