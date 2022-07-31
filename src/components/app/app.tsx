@@ -1,17 +1,9 @@
+import Header from "../header/header";
+
 function App() {
   return (
     <>
-      <header className="header">
-        <a className="header__logo-link" href="#">
-          <img
-            className="header__logo"
-            src="./img/Logo.svg"
-            alt="logo"
-            width="82"
-            height="89"
-          />
-        </a>
-      </header>
+      <Header/>
       <main className="main">
         <h1 className="main__title visually-hidden">
           Aviasales поиск авиаилетов
