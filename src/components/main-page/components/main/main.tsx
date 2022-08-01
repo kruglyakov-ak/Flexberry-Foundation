@@ -1,5 +1,6 @@
 import { useState, ChangeEvent, SyntheticEvent } from "react";
 import { FilterNames, SortTabNames } from "../../../../const";
+import { mockResponse } from "../../../../mocks/tickets";
 import Filters from "./components/filters/filters";
 import Offers from "./components/offers/offers";
 import "./style.css";
@@ -42,6 +43,7 @@ function Main() {
       />
 
       <Offers
+        tickets={mockResponse.tickets}
         sortType={sortType}
         handleSortButtonClick={sortButtonClickHandler}
       />
