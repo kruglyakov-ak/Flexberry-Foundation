@@ -1,0 +1,62 @@
+.offers {
+  width: 502px;
+}
+
+.ticket {
+  width: 100%;
+  height: 184px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 21px;
+}
+
+.ticket-header__price {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  color: #2196f3;
+}
+
+.route {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 141px;
+  padding-bottom: 12px;
+}
+
+.column__title {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #a0b0b9;
+}
+
+.column__content {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.more-button {
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
