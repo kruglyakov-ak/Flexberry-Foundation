@@ -9,7 +9,6 @@ function Main() {
     FilterNames.Transfer1,
     FilterNames.Transfer2,
   ]);
-  console.log(filters);
 
   const filterCheckboxChangeHandler = ({
     target,
@@ -17,11 +16,9 @@ function Main() {
     if (filters.includes(target.id as FilterNames)) {
       const index = filters.findIndex((item) => item === target.id);
       filters.splice(index, index + 1);
-      console.log(filters);
       return;
     }
     filters.push(target.id as FilterNames);
-    console.log(filters);
   };
 
   return (
