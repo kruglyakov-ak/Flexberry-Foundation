@@ -6,4 +6,10 @@ const enum FilterNames {
   Transfer3 = "3-transfer",
 }
 
-export { FilterNames };
+const enum SortTabNames {
+  Cost = 'cost',
+  Speed = 'speed',
+  Optimal = 'optimal'
+}
+
+export { FilterNames, SortTabNames };
