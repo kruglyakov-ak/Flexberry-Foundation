@@ -4,6 +4,7 @@ import { SyntheticEvent } from "react";
 import { SortTabNames } from "../../../../../../const";
 import Offer from "./components/ticket/ticket";
 import { Ticket } from "../../../../../../types/ticket";
+import MoreButton from "./components/more-button/more-button";
 
 type OffersProps = {
   tickets: Ticket[];
@@ -11,9 +12,17 @@ type OffersProps = {
   handleSortButtonClick: ({
     currentTarget,
   }: SyntheticEvent<HTMLButtonElement>) => void;
+  isMoreButtonShow: boolean;
+  handleMoreButtonClick: () => void;
 };
 
-function Offers({ tickets, sortType, handleSortButtonClick }: OffersProps) {
+function Offers({
+  tickets,
+  sortType,
+  handleSortButtonClick,
+  isMoreButtonShow,
+  handleMoreButtonClick,
+}: OffersProps) {
   return (
     <section className="offers">
       <h2 className="offers__title visually-hidden">Билеты Aviasales</h2>
@@ -26,9 +35,9 @@ function Offers({ tickets, sortType, handleSortButtonClick }: OffersProps) {
         <Offer key={i} ticket={item} />
       ))}
 
-      <button type="button" className="more-button">
-        Показать еще 5 билетов!
-      </button>
+      {isMoreButtonShow && (
+        <MoreButton handleMoreButtonClick={handleMoreButtonClick} />
+      )}
     </section>
   );
 }

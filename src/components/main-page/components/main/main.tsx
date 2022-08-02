@@ -1,10 +1,4 @@
-import {
-  useState,
-  ChangeEvent,
-  SyntheticEvent,
-  useEffect,
-  useCallback,
-} from "react";
+import { useState, ChangeEvent, SyntheticEvent, useEffect } from "react";
 import { FilterNames, SortTabNames } from "../../../../const";
 import { mockResponse } from "../../../../mocks/tickets";
 import { Ticket } from "../../../../types/ticket";
@@ -14,45 +8,50 @@ import Offers from "./components/offers/offers";
 import "./style.css";
 
 function Main() {
+  const [tickets] = useState<Ticket[]>(mockResponse.tickets);
   const [filters, setFilters] = useState<FilterNames[]>([
     FilterNames.NonTransfer,
     FilterNames.Transfer1,
     FilterNames.Transfer2,
   ]);
   const [sortType, setSortType] = useState<SortTabNames>(SortTabNames.Cost);
-  const [tickets] = useState<Ticket[]>(mockResponse.tickets);
   const [filteredTickets, setFilteredTickets] = useState(
-    filterData(tickets, filters)
+    sortData(filterData(tickets, filters), sortType).splice(0, 5)
   );
-  const [sortedTickets, setSortedTickets] = useState(
-    sortData(filteredTickets, sortType)
-  );
+  const [showCount, setShowCount] = useState(5);
+  const [isMoreButtonShow, setIsMoreButtonShow] = useState(true);
 
   useEffect(() => {
-    setFilteredTickets(filterData(tickets, filters));
-  }, [filters, tickets]);
+    setFilteredTickets(
+      sortData(filterData(tickets, filters), sortType).splice(0, showCount)
+    );
 
-  useEffect(() => {
-    setSortedTickets(sortData(filteredTickets, sortType));
-  }, [filteredTickets, sortType]);
+    if (filterData(tickets, filters).length - showCount <= 0) {
+      setIsMoreButtonShow(false);
+    }
+  }, [filters, showCount, sortType, tickets]);
 
-  const filterCheckboxChangeHandler = useCallback(
-    ({ target }: ChangeEvent<HTMLInputElement>) => {
-      if (filters.includes(target.id as FilterNames)) {
-        const index = filters.findIndex((item) => item === target.id);
-        filters.splice(index, 1);
-        setFilters(filters.slice());
-        return;
-      }
-      setFilters(filters.concat(target.id as FilterNames));
-    },
-    [filters]
-  );
+  const filterCheckboxChangeHandler = ({
+    target,
+  }: ChangeEvent<HTMLInputElement>) => {
+    if (filters.includes(target.id as FilterNames)) {
+      const index = filters.findIndex((item) => item === target.id);
+      filters.splice(index, 1);
+      setFilters(filters.slice());
+      return;
+    }
+    setFilters(filters.concat(target.id as FilterNames));
+  };
 
   const sortButtonClickHandler = ({
     currentTarget,
   }: SyntheticEvent<HTMLButtonElement>) => {
     setSortType(currentTarget.name as SortTabNames);
+  };
+
+  const moreButtonClickHandler = () => {
+    setShowCount(showCount + 5);
+    console.log(showCount);
   };
 
   return (
@@ -67,9 +66,11 @@ function Main() {
       />
 
       <Offers
-        tickets={sortedTickets}
+        tickets={filteredTickets}
         sortType={sortType}
         handleSortButtonClick={sortButtonClickHandler}
+        isMoreButtonShow={isMoreButtonShow}
+        handleMoreButtonClick={moreButtonClickHandler}
       />
     </main>
   );
