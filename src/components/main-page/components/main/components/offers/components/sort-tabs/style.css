@@ -1,0 +1,45 @@
+.sort-tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+
+.sort-tabs__item {
+  width: 100%;
+}
+
+.sort-tabs__button {
+  height: 50px;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #dfe5ec;
+  background-color: #fff;
+  color: inherit;
+}
+
+.sort-tabs__button:hover {
+  background-color: #f1fcff;
+}
+.sort-tabs__item:first-child .sort-tabs__button {
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.sort-tabs__item:last-child .sort-tabs__button {
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.sort-tabs__button--active {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  cursor: default;
+}
+
+.sort-tabs__button--active:hover {
+  background-color: #2196f3;
+}
