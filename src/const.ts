@@ -8,8 +8,7 @@ const enum FilterNames {
 
 const enum SortTabNames {
   Cost = 'cost',
-  Speed = 'speed',
-  Optimal = 'optimal'
+  Speed = 'speed'
 }
 
 export { FilterNames, SortTabNames };
