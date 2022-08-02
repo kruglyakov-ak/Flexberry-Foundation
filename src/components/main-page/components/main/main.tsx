@@ -51,7 +51,6 @@ function Main() {
 
   const moreButtonClickHandler = () => {
     setShowCount(showCount + 5);
-    console.log(showCount);
   };
 
   return (
