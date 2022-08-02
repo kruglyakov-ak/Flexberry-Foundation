@@ -1,29 +1,53 @@
-import { useState, ChangeEvent, SyntheticEvent } from "react";
+import {
+  useState,
+  ChangeEvent,
+  SyntheticEvent,
+  useEffect,
+  useCallback,
+} from "react";
 import { FilterNames, SortTabNames } from "../../../../const";
 import { mockResponse } from "../../../../mocks/tickets";
+import { Ticket } from "../../../../types/ticket";
+import { filterData, sortData } from "../../../../utils";
 import Filters from "./components/filters/filters";
 import Offers from "./components/offers/offers";
 import "./style.css";
 
 function Main() {
-  const [filters] = useState<FilterNames[]>([
+  const [filters, setFilters] = useState<FilterNames[]>([
     FilterNames.NonTransfer,
     FilterNames.Transfer1,
     FilterNames.Transfer2,
   ]);
-
   const [sortType, setSortType] = useState<SortTabNames>(SortTabNames.Cost);
+  const [tickets] = useState<Ticket[]>(mockResponse.tickets);
+  const [filteredTickets, setFilteredTickets] = useState(
+    filterData(tickets, filters)
+  );
+  const [sortedTickets, setSortedTickets] = useState(
+    sortData(filteredTickets, sortType)
+  );
 
-  const filterCheckboxChangeHandler = ({
-    target,
-  }: ChangeEvent<HTMLInputElement>) => {
-    if (filters.includes(target.id as FilterNames)) {
-      const index = filters.findIndex((item) => item === target.id);
-      filters.splice(index, index + 1);
-      return;
-    }
-    filters.push(target.id as FilterNames);
-  };
+  useEffect(() => {
+    setFilteredTickets(filterData(tickets, filters));
+  }, [filters, tickets]);
+
+  useEffect(() => {
+    setSortedTickets(sortData(filteredTickets, sortType));
+  }, [filteredTickets, sortType]);
+
+  const filterCheckboxChangeHandler = useCallback(
+    ({ target }: ChangeEvent<HTMLInputElement>) => {
+      if (filters.includes(target.id as FilterNames)) {
+        const index = filters.findIndex((item) => item === target.id);
+        filters.splice(index, 1);
+        setFilters(filters.slice());
+        return;
+      }
+      setFilters(filters.concat(target.id as FilterNames));
+    },
+    [filters]
+  );
 
   const sortButtonClickHandler = ({
     currentTarget,
@@ -43,7 +67,7 @@ function Main() {
       />
 
       <Offers
-        tickets={mockResponse.tickets}
+        tickets={sortedTickets}
         sortType={sortType}
         handleSortButtonClick={sortButtonClickHandler}
       />

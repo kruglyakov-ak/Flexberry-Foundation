@@ -22,7 +22,7 @@ function Offers({ tickets, sortType, handleSortButtonClick }: OffersProps) {
         handleSortButtonClick={handleSortButtonClick}
       />
 
-      {tickets.splice(0, 4).map((item, i) => (
+      {tickets.map((item, i) => (
         <Offer key={i} ticket={item} />
       ))}
 

@@ -36,18 +36,6 @@ function SortTabs({ sortType, handleSortButtonClick }: SortTabsProps) {
           Самый быстрый
         </button>
       </li>
-      <li className="sort-tabs__item">
-        <button
-          className={`sort-tabs__button ${
-            sortType === SortTabNames.Optimal ? "sort-tabs__button--active" : ""
-          }`}
-          type="button"
-          name={SortTabNames.Optimal}
-          onClick={handleSortButtonClick}
-        >
-          Оптимальный
-        </button>
-      </li>
     </ul>
   );
 }
