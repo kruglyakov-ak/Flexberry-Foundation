@@ -16,14 +16,14 @@ function Main() {
   ]);
   const [sortType, setSortType] = useState<SortTabNames>(SortTabNames.Cost);
   const [filteredTickets, setFilteredTickets] = useState(
-    sortData(filterData(tickets, filters), sortType).splice(0, 5)
+    sortData(filterData(tickets, filters), sortType).slice().splice(0, 5)
   );
   const [showCount, setShowCount] = useState(5);
   const [isMoreButtonShow, setIsMoreButtonShow] = useState(true);
 
   useEffect(() => {
     setFilteredTickets(
-      sortData(filterData(tickets, filters), sortType).splice(0, showCount)
+      sortData(filterData(tickets, filters), sortType).slice().splice(0, showCount)
     );
 
     if (filterData(tickets, filters).length - showCount <= 0) {
