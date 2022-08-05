@@ -1,4 +1,4 @@
-export const mockResponse = {
+{
   "tickets": [
     {
       "price": 15529,
@@ -8,18 +8,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:59:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1072
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:10:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1190
         }
       ]
@@ -32,19 +28,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:37:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 702
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:53:00.000Z",
-          "stops": [
-            "IST",
-            "SHA"
-          ],
+          "stops": ["IST", "SHA"],
           "duration": 1008
         }
       ]
@@ -57,10 +48,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T12:01:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA"
-          ],
+          "stops": ["HKG", "SHA"],
           "duration": 1217
         },
         {
@@ -100,19 +88,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:58:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["SIN", "BKK"],
           "duration": 716
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:44:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1844
         }
       ]
@@ -132,9 +115,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:57:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1977
         }
       ]
@@ -147,9 +128,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:49:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1401
         },
         {
@@ -169,19 +148,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:29:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SHA", "AUH"],
           "duration": 1534
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:11:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1225
         }
       ]
@@ -194,19 +168,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:38:00.000Z",
-          "stops": [
-            "HKG",
-            "SIN"
-          ],
+          "stops": ["HKG", "SIN"],
           "duration": 669
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:23:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1567
         }
       ]
@@ -219,20 +188,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:38:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 847
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:18:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["DXB", "AUH", "KUL"],
           "duration": 832
         }
       ]
@@ -245,21 +208,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:27:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA",
-            "IST"
-          ],
+          "stops": ["HKG", "SHA", "IST"],
           "duration": 1674
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:13:00.000Z",
-          "stops": [
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["BKK", "AUH"],
           "duration": 1450
         }
       ]
@@ -272,10 +228,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:41:00.000Z",
-          "stops": [
-            "SHA",
-            "HKG"
-          ],
+          "stops": ["SHA", "HKG"],
           "duration": 652
         },
         {
@@ -302,9 +255,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:37:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 829
         }
       ]
@@ -317,19 +268,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:15:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["AUH", "SIN"],
           "duration": 1934
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:53:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1038
         }
       ]
@@ -342,19 +288,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:19:00.000Z",
-          "stops": [
-            "SHA",
-            "BKK"
-          ],
+          "stops": ["SHA", "BKK"],
           "duration": 1653
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:49:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1993
         }
       ]
@@ -367,18 +308,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:19:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 687
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:01:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 850
         }
       ]
@@ -398,9 +335,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:26:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1852
         }
       ]
@@ -413,19 +348,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:49:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 832
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:10:00.000Z",
-          "stops": [
-            "HKG",
-            "KUL"
-          ],
+          "stops": ["HKG", "KUL"],
           "duration": 1310
         }
       ]
@@ -445,9 +375,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:26:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1303
         }
       ]
@@ -467,11 +395,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:08:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL",
-            "HKG"
-          ],
+          "stops": ["SHA", "KUL", "HKG"],
           "duration": 1078
         }
       ]
@@ -484,11 +408,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:50:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["SIN", "DXB", "KUL"],
           "duration": 1377
         },
         {
@@ -508,19 +428,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:03:00.000Z",
-          "stops": [
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["SIN", "KUL"],
           "duration": 1243
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:47:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1343
         }
       ]
@@ -533,11 +448,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:30:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["SHA", "DXB", "SIN"],
           "duration": 1876
         },
         {
@@ -557,18 +468,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:43:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 914
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:34:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 875
         }
       ]
@@ -581,20 +488,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:48:00.000Z",
-          "stops": [
-            "IST",
-            "AUH"
-          ],
+          "stops": ["IST", "AUH"],
           "duration": 1630
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:23:00.000Z",
-          "stops": [
-            "KUL",
-            "IST"
-          ],
+          "stops": ["KUL", "IST"],
           "duration": 1694
         }
       ]
@@ -607,22 +508,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:37:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["BKK", "DXB", "KUL"],
           "duration": 1826
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:25:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN",
-            "SHA"
-          ],
+          "stops": ["AUH", "SIN", "SHA"],
           "duration": 700
         }
       ]
@@ -635,9 +528,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:50:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1920
         },
         {
@@ -657,21 +548,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:59:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["AUH", "HKG"],
           "duration": 1147
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:26:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["IST", "SHA", "DXB"],
           "duration": 1650
         }
       ]
@@ -711,10 +595,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:24:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB"
-          ],
+          "stops": ["BKK", "DXB"],
           "duration": 1946
         }
       ]
@@ -727,21 +608,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T12:53:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH",
-            "IST"
-          ],
+          "stops": ["DXB", "AUH", "IST"],
           "duration": 1824
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:06:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA"
-          ],
+          "stops": ["AUH", "SHA"],
           "duration": 1041
         }
       ]
@@ -754,22 +628,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:40:00.000Z",
-          "stops": [
-            "KUL",
-            "HKG",
-            "IST"
-          ],
+          "stops": ["KUL", "HKG", "IST"],
           "duration": 985
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:01:00.000Z",
-          "stops": [
-            "DXB",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["DXB", "IST", "AUH"],
           "duration": 1376
         }
       ]
@@ -782,21 +648,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:05:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH",
-            "IST"
-          ],
+          "stops": ["HKG", "AUH", "IST"],
           "duration": 672
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:19:00.000Z",
-          "stops": [
-            "DXB",
-            "HKG"
-          ],
+          "stops": ["DXB", "HKG"],
           "duration": 1338
         }
       ]
@@ -809,19 +668,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:58:00.000Z",
-          "stops": [
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["HKG", "DXB"],
           "duration": 1076
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:56:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1814
         }
       ]
@@ -834,10 +688,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:52:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["SHA", "DXB"],
           "duration": 843
         },
         {
@@ -857,10 +708,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:47:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["KUL", "DXB"],
           "duration": 746
         },
         {
@@ -880,22 +728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:15:00.000Z",
-          "stops": [
-            "BKK",
-            "IST",
-            "SIN"
-          ],
+          "stops": ["BKK", "IST", "SIN"],
           "duration": 1683
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:18:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SIN", "SHA", "AUH"],
           "duration": 1965
         }
       ]
@@ -968,10 +808,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:25:00.000Z",
-          "stops": [
-            "HKG",
-            "IST"
-          ],
+          "stops": ["HKG", "IST"],
           "duration": 1945
         },
         {
@@ -991,20 +828,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:04:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1193
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:38:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK",
-            "SHA"
-          ],
+          "stops": ["AUH", "BKK", "SHA"],
           "duration": 1219
         }
       ]
@@ -1017,21 +848,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:52:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["IST", "SHA", "AUH"],
           "duration": 1676
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:49:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 1070
         }
       ]
@@ -1044,11 +868,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:15:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL",
-            "HKG"
-          ],
+          "stops": ["BKK", "KUL", "HKG"],
           "duration": 1814
         },
         {
@@ -1068,18 +888,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:54:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 893
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:04:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1547
         }
       ]
@@ -1092,18 +908,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:28:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1553
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:49:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 973
         }
       ]
@@ -1116,10 +928,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:54:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["AUH", "BKK"],
           "duration": 963
         },
         {
@@ -1139,20 +948,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:00:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["SIN", "SHA", "KUL"],
           "duration": 1990
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:17:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1344
         }
       ]
@@ -1172,11 +975,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:25:00.000Z",
-          "stops": [
-            "KUL",
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["KUL", "AUH", "BKK"],
           "duration": 713
         }
       ]
@@ -1189,11 +988,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:16:00.000Z",
-          "stops": [
-            "HKG",
-            "IST",
-            "SHA"
-          ],
+          "stops": ["HKG", "IST", "SHA"],
           "duration": 1978
         },
         {
@@ -1213,19 +1008,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:25:00.000Z",
-          "stops": [
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["HKG", "BKK"],
           "duration": 1347
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:15:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1701
         }
       ]
@@ -1238,18 +1028,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:27:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 950
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:35:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 676
         }
       ]
@@ -1262,21 +1048,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:05:00.000Z",
-          "stops": [
-            "IST",
-            "DXB",
-            "BKK"
-          ],
+          "stops": ["IST", "DXB", "BKK"],
           "duration": 602
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:06:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 1983
         }
       ]
@@ -1296,9 +1075,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:54:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1293
         }
       ]
@@ -1311,20 +1088,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:59:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["AUH", "SIN"],
           "duration": 1753
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:49:00.000Z",
-          "stops": [
-            "BKK",
-            "IST"
-          ],
+          "stops": ["BKK", "IST"],
           "duration": 1381
         }
       ]
@@ -1337,20 +1108,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:38:00.000Z",
-          "stops": [
-            "SHA",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["SHA", "IST", "AUH"],
           "duration": 1555
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:46:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1261
         }
       ]
@@ -1363,21 +1128,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:19:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["BKK", "KUL"],
           "duration": 737
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:26:00.000Z",
-          "stops": [
-            "IST",
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["IST", "KUL", "DXB"],
           "duration": 906
         }
       ]
@@ -1390,18 +1148,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:16:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1756
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:27:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1247
         }
       ]
@@ -1434,18 +1188,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:44:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1764
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:51:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1946
         }
       ]
@@ -1458,11 +1208,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:30:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["HKG", "AUH", "DXB"],
           "duration": 1327
         },
         {
@@ -1489,9 +1235,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:29:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1666
         }
       ]
@@ -1504,22 +1248,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:40:00.000Z",
-          "stops": [
-            "SIN",
-            "IST",
-            "DXB"
-          ],
+          "stops": ["SIN", "IST", "DXB"],
           "duration": 1252
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:11:00.000Z",
-          "stops": [
-            "AUH",
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["AUH", "KUL", "DXB"],
           "duration": 841
         }
       ]
@@ -1539,9 +1275,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:48:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1831
         }
       ]
@@ -1554,20 +1288,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:34:00.000Z",
-          "stops": [
-            "BKK",
-            "IST"
-          ],
+          "stops": ["BKK", "IST"],
           "duration": 915
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:43:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH"
-          ],
+          "stops": ["HKG", "AUH"],
           "duration": 1384
         }
       ]
@@ -1580,10 +1308,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:21:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["AUH", "HKG"],
           "duration": 1517
         },
         {
@@ -1603,18 +1328,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:20:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1490
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:06:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1793
         }
       ]
@@ -1627,19 +1348,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:23:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1707
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:28:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["KUL", "DXB"],
           "duration": 1800
         }
       ]
@@ -1652,11 +1368,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:19:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["HKG", "SHA", "AUH"],
           "duration": 1818
         },
         {
@@ -1683,11 +1395,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:48:00.000Z",
-          "stops": [
-            "SHA",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["SHA", "IST", "AUH"],
           "duration": 1414
         }
       ]
@@ -1707,10 +1415,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:59:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SHA", "AUH"],
           "duration": 1186
         }
       ]
@@ -1723,21 +1428,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:48:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB",
-            "HKG"
-          ],
+          "stops": ["SHA", "DXB", "HKG"],
           "duration": 1894
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:23:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 682
         }
       ]
@@ -1750,19 +1448,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:26:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 923
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:58:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 784
         }
       ]
@@ -1775,9 +1468,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:56:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1483
         },
         {
@@ -1797,21 +1488,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:09:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB"
-          ],
+          "stops": ["SIN", "DXB"],
           "duration": 643
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:11:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL",
-            "IST"
-          ],
+          "stops": ["DXB", "KUL", "IST"],
           "duration": 910
         }
       ]
@@ -1824,20 +1508,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:46:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 928
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:56:00.000Z",
-          "stops": [
-            "IST",
-            "DXB",
-            "AUH"
-          ],
+          "stops": ["IST", "DXB", "AUH"],
           "duration": 1247
         }
       ]
@@ -1857,10 +1535,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:07:00.000Z",
-          "stops": [
-            "SIN",
-            "IST"
-          ],
+          "stops": ["SIN", "IST"],
           "duration": 1877
         }
       ]
@@ -1873,22 +1548,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:15:00.000Z",
-          "stops": [
-            "IST",
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["IST", "AUH", "KUL"],
           "duration": 1603
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:14:00.000Z",
-          "stops": [
-            "SHA",
-            "HKG",
-            "KUL"
-          ],
+          "stops": ["SHA", "HKG", "KUL"],
           "duration": 1317
         }
       ]
@@ -1901,18 +1568,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:17:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1806
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:21:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1917
         }
       ]
@@ -1925,21 +1588,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:49:00.000Z",
-          "stops": [
-            "DXB",
-            "SHA",
-            "HKG"
-          ],
+          "stops": ["DXB", "SHA", "HKG"],
           "duration": 1573
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:19:00.000Z",
-          "stops": [
-            "SHA",
-            "BKK"
-          ],
+          "stops": ["SHA", "BKK"],
           "duration": 1802
         }
       ]
@@ -1952,19 +1608,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:12:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1356
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:16:00.000Z",
-          "stops": [
-            "SIN",
-            "HKG"
-          ],
+          "stops": ["SIN", "HKG"],
           "duration": 1724
         }
       ]
@@ -1977,20 +1628,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T08:07:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["IST", "SHA", "KUL"],
           "duration": 1009
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:25:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 681
         }
       ]
@@ -2010,11 +1655,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:51:00.000Z",
-          "stops": [
-            "SIN",
-            "IST",
-            "DXB"
-          ],
+          "stops": ["SIN", "IST", "DXB"],
           "duration": 1769
         }
       ]
@@ -2027,22 +1668,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:45:00.000Z",
-          "stops": [
-            "SHA",
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["SHA", "BKK", "AUH"],
           "duration": 771
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:22:00.000Z",
-          "stops": [
-            "DXB",
-            "HKG",
-            "IST"
-          ],
+          "stops": ["DXB", "HKG", "IST"],
           "duration": 1113
         }
       ]
@@ -2055,22 +1688,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:07:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH",
-            "IST"
-          ],
+          "stops": ["SIN", "AUH", "IST"],
           "duration": 1794
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:18:00.000Z",
-          "stops": [
-            "SHA",
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["SHA", "SIN", "BKK"],
           "duration": 1951
         }
       ]
@@ -2083,19 +1708,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:18:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1270
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:12:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA"
-          ],
+          "stops": ["BKK", "SHA"],
           "duration": 1002
         }
       ]
@@ -2108,21 +1728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:09:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB"
-          ],
+          "stops": ["SIN", "DXB"],
           "duration": 1454
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:45:00.000Z",
-          "stops": [
-            "BKK",
-            "IST",
-            "HKG"
-          ],
+          "stops": ["BKK", "IST", "HKG"],
           "duration": 1219
         }
       ]
@@ -2135,11 +1748,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:50:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK",
-            "IST"
-          ],
+          "stops": ["AUH", "BKK", "IST"],
           "duration": 1199
         },
         {
@@ -2166,10 +1775,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:15:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["AUH", "BKK"],
           "duration": 1820
         }
       ]
@@ -2182,9 +1788,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T08:38:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1102
         },
         {
@@ -2204,18 +1808,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:17:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1751
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:58:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1455
         }
       ]
@@ -2228,20 +1828,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:36:00.000Z",
-          "stops": [
-            "DXB",
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["DXB", "BKK", "AUH"],
           "duration": 1033
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:14:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 845
         }
       ]
@@ -2254,20 +1848,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:40:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1922
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:03:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "BKK"
-          ],
+          "stops": ["IST", "SHA", "BKK"],
           "duration": 1162
         }
       ]
@@ -2287,10 +1875,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:30:00.000Z",
-          "stops": [
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["AUH", "KUL"],
           "duration": 1262
         }
       ]
@@ -2303,21 +1888,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:30:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL",
-            "HKG"
-          ],
+          "stops": ["SHA", "KUL", "HKG"],
           "duration": 1301
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:18:00.000Z",
-          "stops": [
-            "DXB",
-            "SHA"
-          ],
+          "stops": ["DXB", "SHA"],
           "duration": 865
         }
       ]
@@ -2330,20 +1908,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:27:00.000Z",
-          "stops": [
-            "SHA",
-            "HKG"
-          ],
+          "stops": ["SHA", "HKG"],
           "duration": 1999
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:53:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["DXB", "KUL"],
           "duration": 915
         }
       ]
@@ -2356,19 +1928,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:31:00.000Z",
-          "stops": [
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["KUL", "SHA"],
           "duration": 925
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:49:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1357
         }
       ]
@@ -2388,11 +1955,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:02:00.000Z",
-          "stops": [
-            "DXB",
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["DXB", "BKK", "AUH"],
           "duration": 602
         }
       ]
@@ -2405,20 +1968,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:23:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["BKK", "SHA", "DXB"],
           "duration": 1217
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:31:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 657
         }
       ]
@@ -2431,20 +1988,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:26:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["BKK", "HKG", "DXB"],
           "duration": 1605
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:53:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 956
         }
       ]
@@ -2457,20 +2008,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:01:00.000Z",
-          "stops": [
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["AUH", "KUL"],
           "duration": 978
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:20:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA"
-          ],
+          "stops": ["AUH", "SHA"],
           "duration": 1101
         }
       ]
@@ -2483,18 +2028,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:22:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1954
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:37:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1444
         }
       ]
@@ -2507,18 +2048,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:52:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1668
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:18:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1499
         }
       ]
@@ -2538,9 +2075,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:15:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 927
         }
       ]
@@ -2553,20 +2088,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:14:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 916
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:33:00.000Z",
-          "stops": [
-            "AUH",
-            "IST",
-            "KUL"
-          ],
+          "stops": ["AUH", "IST", "KUL"],
           "duration": 1293
         }
       ]
@@ -2579,10 +2108,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:10:00.000Z",
-          "stops": [
-            "DXB",
-            "SHA"
-          ],
+          "stops": ["DXB", "SHA"],
           "duration": 1937
         },
         {
@@ -2609,9 +2135,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:19:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 799
         }
       ]
@@ -2624,10 +2148,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:48:00.000Z",
-          "stops": [
-            "KUL",
-            "HKG"
-          ],
+          "stops": ["KUL", "HKG"],
           "duration": 823
         },
         {
@@ -2647,20 +2168,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:49:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["SIN", "BKK"],
           "duration": 1651
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:12:00.000Z",
-          "stops": [
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["SIN", "KUL"],
           "duration": 975
         }
       ]
@@ -2673,20 +2188,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:04:00.000Z",
-          "stops": [
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["AUH", "KUL"],
           "duration": 1198
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:22:00.000Z",
-          "stops": [
-            "KUL",
-            "IST"
-          ],
+          "stops": ["KUL", "IST"],
           "duration": 1476
         }
       ]
@@ -2726,10 +2235,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:39:00.000Z",
-          "stops": [
-            "BKK",
-            "IST"
-          ],
+          "stops": ["BKK", "IST"],
           "duration": 651
         }
       ]
@@ -2749,9 +2255,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:35:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1950
         }
       ]
@@ -2771,9 +2275,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:15:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1694
         }
       ]
@@ -2786,20 +2288,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:37:00.000Z",
-          "stops": [
-            "IST",
-            "BKK"
-          ],
+          "stops": ["IST", "BKK"],
           "duration": 836
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:45:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["SHA", "KUL"],
           "duration": 834
         }
       ]
@@ -2819,11 +2315,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:36:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA",
-            "IST"
-          ],
+          "stops": ["AUH", "SHA", "IST"],
           "duration": 1818
         }
       ]
@@ -2836,20 +2328,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:51:00.000Z",
-          "stops": [
-            "KUL",
-            "SHA",
-            "SIN"
-          ],
+          "stops": ["KUL", "SHA", "SIN"],
           "duration": 667
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:50:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 862
         }
       ]
@@ -2862,11 +2348,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:42:00.000Z",
-          "stops": [
-            "SIN",
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["SIN", "HKG", "DXB"],
           "duration": 827
         },
         {
@@ -2886,21 +2368,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:20:00.000Z",
-          "stops": [
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["KUL", "SIN"],
           "duration": 1584
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:42:00.000Z",
-          "stops": [
-            "IST",
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["IST", "AUH", "KUL"],
           "duration": 1710
         }
       ]
@@ -2913,22 +2388,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:37:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN",
-            "SHA"
-          ],
+          "stops": ["DXB", "SIN", "SHA"],
           "duration": 949
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:32:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["HKG", "AUH", "BKK"],
           "duration": 1909
         }
       ]
@@ -2941,9 +2408,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:48:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 957
         },
         {
@@ -2963,19 +2428,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:36:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1127
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:47:00.000Z",
-          "stops": [
-            "DXB",
-            "HKG"
-          ],
+          "stops": ["DXB", "HKG"],
           "duration": 1519
         }
       ]
@@ -2988,22 +2448,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:05:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA",
-            "SIN"
-          ],
+          "stops": ["BKK", "SHA", "SIN"],
           "duration": 1312
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:17:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK",
-            "DXB"
-          ],
+          "stops": ["SIN", "BKK", "DXB"],
           "duration": 757
         }
       ]
@@ -3016,19 +2468,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:51:00.000Z",
-          "stops": [
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["HKG", "BKK"],
           "duration": 1484
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:53:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1543
         }
       ]
@@ -3061,11 +2508,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:06:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA",
-            "HKG"
-          ],
+          "stops": ["SIN", "SHA", "HKG"],
           "duration": 1749
         },
         {
@@ -3085,22 +2528,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:46:00.000Z",
-          "stops": [
-            "IST",
-            "KUL",
-            "HKG"
-          ],
+          "stops": ["IST", "KUL", "HKG"],
           "duration": 1338
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:02:00.000Z",
-          "stops": [
-            "IST",
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["IST", "SIN", "AUH"],
           "duration": 1438
         }
       ]
@@ -3113,20 +2548,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:39:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1955
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:33:00.000Z",
-          "stops": [
-            "BKK",
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["BKK", "SIN", "AUH"],
           "duration": 1215
         }
       ]
@@ -3139,10 +2568,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:06:00.000Z",
-          "stops": [
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["AUH", "DXB"],
           "duration": 1776
         },
         {
@@ -3162,18 +2588,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:38:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1702
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:24:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 907
         }
       ]
@@ -3186,18 +2608,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:09:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1939
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:02:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1625
         }
       ]
@@ -3210,18 +2628,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:22:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 635
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:32:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1719
         }
       ]
@@ -3234,10 +2648,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:29:00.000Z",
-          "stops": [
-            "KUL",
-            "BKK"
-          ],
+          "stops": ["KUL", "BKK"],
           "duration": 1471
         },
         {
@@ -3264,10 +2675,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:29:00.000Z",
-          "stops": [
-            "DXB",
-            "IST"
-          ],
+          "stops": ["DXB", "IST"],
           "duration": 1090
         }
       ]
@@ -3280,18 +2688,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:37:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 852
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:54:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1508
         }
       ]
@@ -3304,22 +2708,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:53:00.000Z",
-          "stops": [
-            "SIN",
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["SIN", "KUL", "DXB"],
           "duration": 992
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:08:00.000Z",
-          "stops": [
-            "KUL",
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["KUL", "AUH", "BKK"],
           "duration": 1475
         }
       ]
@@ -3332,20 +2728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:01:00.000Z",
-          "stops": [
-            "HKG",
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["HKG", "SIN", "AUH"],
           "duration": 1928
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:53:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1464
         }
       ]
@@ -3358,9 +2748,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:35:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 730
         },
         {
@@ -3380,20 +2768,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:01:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA",
-            "HKG"
-          ],
+          "stops": ["AUH", "SHA", "HKG"],
           "duration": 1822
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:34:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 631
         }
       ]
@@ -3406,21 +2788,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:13:00.000Z",
-          "stops": [
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["AUH", "DXB"],
           "duration": 613
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:08:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB",
-            "AUH"
-          ],
+          "stops": ["KUL", "DXB", "AUH"],
           "duration": 1341
         }
       ]
@@ -3433,10 +2808,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:45:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["SIN", "BKK"],
           "duration": 1552
         },
         {
@@ -3456,20 +2828,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:51:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1645
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:23:00.000Z",
-          "stops": [
-            "IST",
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["IST", "KUL", "DXB"],
           "duration": 1694
         }
       ]
@@ -3482,20 +2848,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:26:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["SIN", "BKK"],
           "duration": 1088
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:54:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SHA", "AUH"],
           "duration": 955
         }
       ]
@@ -3508,9 +2868,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:10:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1274
         },
         {
@@ -3530,22 +2888,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:08:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["SIN", "AUH", "HKG"],
           "duration": 673
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:18:00.000Z",
-          "stops": [
-            "SHA",
-            "SIN",
-            "HKG"
-          ],
+          "stops": ["SHA", "SIN", "HKG"],
           "duration": 1567
         }
       ]
@@ -3558,19 +2908,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T08:07:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA"
-          ],
+          "stops": ["AUH", "SHA"],
           "duration": 747
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:10:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1940
         }
       ]
@@ -3590,10 +2935,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:49:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA"
-          ],
+          "stops": ["HKG", "SHA"],
           "duration": 1096
         }
       ]
@@ -3606,11 +2948,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:57:00.000Z",
-          "stops": [
-            "SIN",
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["SIN", "HKG", "BKK"],
           "duration": 1046
         },
         {
@@ -3630,22 +2968,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:12:00.000Z",
-          "stops": [
-            "SIN",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["SIN", "IST", "AUH"],
           "duration": 1992
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:34:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["SHA", "DXB", "SIN"],
           "duration": 1932
         }
       ]
@@ -3658,20 +2988,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:08:00.000Z",
-          "stops": [
-            "KUL",
-            "IST",
-            "HKG"
-          ],
+          "stops": ["KUL", "IST", "HKG"],
           "duration": 1805
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:45:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1966
         }
       ]
@@ -3691,11 +3015,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:29:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL",
-            "AUH"
-          ],
+          "stops": ["SHA", "KUL", "AUH"],
           "duration": 1179
         }
       ]
@@ -3708,20 +3028,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:17:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SHA", "AUH"],
           "duration": 641
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:05:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["BKK", "KUL"],
           "duration": 1961
         }
       ]
@@ -3734,20 +3048,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:17:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["SIN", "BKK", "AUH"],
           "duration": 1509
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:55:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1929
         }
       ]
@@ -3767,11 +3075,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:46:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["BKK", "SHA", "AUH"],
           "duration": 1236
         }
       ]
@@ -3784,19 +3088,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:13:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB"
-          ],
+          "stops": ["BKK", "DXB"],
           "duration": 1723
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:30:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1953
         }
       ]
@@ -3816,9 +3115,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:16:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1913
         }
       ]
@@ -3831,21 +3128,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:39:00.000Z",
-          "stops": [
-            "KUL",
-            "HKG"
-          ],
+          "stops": ["KUL", "HKG"],
           "duration": 1555
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:30:00.000Z",
-          "stops": [
-            "SHA",
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["SHA", "BKK", "HKG"],
           "duration": 1589
         }
       ]
@@ -3878,18 +3168,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:24:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1951
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:02:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1342
         }
       ]
@@ -3902,22 +3188,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:40:00.000Z",
-          "stops": [
-            "HKG",
-            "IST",
-            "KUL"
-          ],
+          "stops": ["HKG", "IST", "KUL"],
           "duration": 1782
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:48:00.000Z",
-          "stops": [
-            "IST",
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["IST", "BKK", "HKG"],
           "duration": 1271
         }
       ]
@@ -3930,10 +3208,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:18:00.000Z",
-          "stops": [
-            "AUH",
-            "IST"
-          ],
+          "stops": ["AUH", "IST"],
           "duration": 1266
         },
         {
@@ -3953,11 +3228,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:53:00.000Z",
-          "stops": [
-            "BKK",
-            "AUH",
-            "IST"
-          ],
+          "stops": ["BKK", "AUH", "IST"],
           "duration": 1726
         },
         {
@@ -3984,11 +3255,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:39:00.000Z",
-          "stops": [
-            "KUL",
-            "HKG",
-            "IST"
-          ],
+          "stops": ["KUL", "HKG", "IST"],
           "duration": 1347
         }
       ]
@@ -4008,9 +3275,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:48:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1627
         }
       ]
@@ -4023,21 +3288,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:00:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA"
-          ],
+          "stops": ["SIN", "SHA"],
           "duration": 1948
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:55:00.000Z",
-          "stops": [
-            "IST",
-            "DXB",
-            "SHA"
-          ],
+          "stops": ["IST", "DXB", "SHA"],
           "duration": 1096
         }
       ]
@@ -4070,21 +3328,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:11:00.000Z",
-          "stops": [
-            "DXB",
-            "HKG"
-          ],
+          "stops": ["DXB", "HKG"],
           "duration": 1597
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:16:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["IST", "SHA", "DXB"],
           "duration": 1921
         }
       ]
@@ -4104,10 +3355,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:12:00.000Z",
-          "stops": [
-            "IST",
-            "SIN"
-          ],
+          "stops": ["IST", "SIN"],
           "duration": 1798
         }
       ]
@@ -4120,9 +3368,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:17:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1304
         },
         {
@@ -4149,11 +3395,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:06:00.000Z",
-          "stops": [
-            "SIN",
-            "IST",
-            "SHA"
-          ],
+          "stops": ["SIN", "IST", "SHA"],
           "duration": 1291
         }
       ]
@@ -4166,21 +3408,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:30:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["AUH", "SIN"],
           "duration": 740
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:58:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["SIN", "AUH", "KUL"],
           "duration": 741
         }
       ]
@@ -4193,18 +3428,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:40:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1725
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:18:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1384
         }
       ]
@@ -4224,11 +3455,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:47:00.000Z",
-          "stops": [
-            "KUL",
-            "SIN",
-            "IST"
-          ],
+          "stops": ["KUL", "SIN", "IST"],
           "duration": 1173
         }
       ]
@@ -4248,11 +3475,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:45:00.000Z",
-          "stops": [
-            "IST",
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["IST", "HKG", "DXB"],
           "duration": 861
         }
       ]
@@ -4265,19 +3488,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:08:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB"
-          ],
+          "stops": ["SIN", "DXB"],
           "duration": 1888
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:40:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 705
         }
       ]
@@ -4290,20 +3508,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:26:00.000Z",
-          "stops": [
-            "KUL",
-            "IST",
-            "SHA"
-          ],
+          "stops": ["KUL", "IST", "SHA"],
           "duration": 812
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:22:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1761
         }
       ]
@@ -4316,20 +3528,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:00:00.000Z",
-          "stops": [
-            "IST",
-            "AUH"
-          ],
+          "stops": ["IST", "AUH"],
           "duration": 1130
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:53:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA"
-          ],
+          "stops": ["SIN", "SHA"],
           "duration": 1912
         }
       ]
@@ -4342,9 +3548,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:09:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 807
         },
         {
@@ -4371,11 +3575,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:56:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH",
-            "SHA"
-          ],
+          "stops": ["DXB", "AUH", "SHA"],
           "duration": 1402
         }
       ]
@@ -4395,9 +3595,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:13:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1691
         }
       ]
@@ -4410,10 +3608,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:43:00.000Z",
-          "stops": [
-            "DXB",
-            "SHA"
-          ],
+          "stops": ["DXB", "SHA"],
           "duration": 1503
         },
         {
@@ -4433,20 +3628,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:15:00.000Z",
-          "stops": [
-            "DXB",
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["DXB", "BKK", "KUL"],
           "duration": 1352
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:45:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1272
         }
       ]
@@ -4459,20 +3648,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:05:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 951
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:36:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["SHA", "DXB", "KUL"],
           "duration": 1449
         }
       ]
@@ -4492,9 +3675,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:06:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 633
         }
       ]
@@ -4507,19 +3688,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:36:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 834
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:45:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1489
         }
       ]
@@ -4532,18 +3708,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T08:48:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1309
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:50:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1005
         }
       ]
@@ -4556,19 +3728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:22:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1024
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:08:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["SIN", "AUH"],
           "duration": 1903
         }
       ]
@@ -4588,11 +3755,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:51:00.000Z",
-          "stops": [
-            "SHA",
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["SHA", "SIN", "AUH"],
           "duration": 1357
         }
       ]
@@ -4605,9 +3768,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:56:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1765
         },
         {
@@ -4627,9 +3788,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:04:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1233
         },
         {
@@ -4649,19 +3808,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:44:00.000Z",
-          "stops": [
-            "SIN",
-            "HKG"
-          ],
+          "stops": ["SIN", "HKG"],
           "duration": 1418
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:14:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1601
         }
       ]
@@ -4674,11 +3828,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:03:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN",
-            "IST"
-          ],
+          "stops": ["AUH", "SIN", "IST"],
           "duration": 1566
         },
         {
@@ -4698,10 +3848,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:40:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 838
         },
         {
@@ -4721,22 +3868,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:48:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["SIN", "DXB", "KUL"],
           "duration": 1210
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:34:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["IST", "SHA", "KUL"],
           "duration": 762
         }
       ]
@@ -4749,20 +3888,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:52:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1633
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:18:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["BKK", "DXB", "SIN"],
           "duration": 829
         }
       ]
@@ -4775,22 +3908,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:21:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["BKK", "DXB", "KUL"],
           "duration": 895
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:55:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["BKK", "KUL", "SHA"],
           "duration": 1929
         }
       ]
@@ -4803,21 +3928,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:59:00.000Z",
-          "stops": [
-            "IST",
-            "BKK",
-            "DXB"
-          ],
+          "stops": ["IST", "BKK", "DXB"],
           "duration": 807
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:30:00.000Z",
-          "stops": [
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["AUH", "KUL"],
           "duration": 1732
         }
       ]
@@ -4857,10 +3975,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:33:00.000Z",
-          "stops": [
-            "IST",
-            "AUH"
-          ],
+          "stops": ["IST", "AUH"],
           "duration": 1840
         }
       ]
@@ -4873,22 +3988,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:01:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL",
-            "IST"
-          ],
+          "stops": ["BKK", "KUL", "IST"],
           "duration": 1847
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:52:00.000Z",
-          "stops": [
-            "DXB",
-            "IST",
-            "BKK"
-          ],
+          "stops": ["DXB", "IST", "BKK"],
           "duration": 720
         }
       ]
@@ -4901,18 +4008,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:25:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1688
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:27:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 767
         }
       ]
@@ -4925,19 +4028,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:17:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA"
-          ],
+          "stops": ["AUH", "SHA"],
           "duration": 1966
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:06:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1748
         }
       ]
@@ -4950,20 +4048,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:26:00.000Z",
-          "stops": [
-            "IST",
-            "BKK"
-          ],
+          "stops": ["IST", "BKK"],
           "duration": 1380
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:02:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["BKK", "KUL"],
           "duration": 1379
         }
       ]
@@ -4983,11 +4075,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:16:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA",
-            "IST"
-          ],
+          "stops": ["HKG", "SHA", "IST"],
           "duration": 1918
         }
       ]
@@ -5000,21 +4088,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:22:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["AUH", "HKG"],
           "duration": 1474
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:14:00.000Z",
-          "stops": [
-            "DXB",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["DXB", "SHA", "AUH"],
           "duration": 1264
         }
       ]
@@ -5027,9 +4108,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:10:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1843
         },
         {
@@ -5056,9 +4135,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:45:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1853
         }
       ]
@@ -5078,11 +4155,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:26:00.000Z",
-          "stops": [
-            "BKK",
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["BKK", "SIN", "AUH"],
           "duration": 1128
         }
       ]
@@ -5095,10 +4168,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:30:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["KUL", "DXB"],
           "duration": 1927
         },
         {
@@ -5118,19 +4188,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:43:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1201
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:58:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["SHA", "KUL"],
           "duration": 1461
         }
       ]
@@ -5150,11 +4215,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:39:00.000Z",
-          "stops": [
-            "IST",
-            "DXB",
-            "BKK"
-          ],
+          "stops": ["IST", "DXB", "BKK"],
           "duration": 1946
         }
       ]
@@ -5167,20 +4228,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:37:00.000Z",
-          "stops": [
-            "KUL",
-            "AUH"
-          ],
+          "stops": ["KUL", "AUH"],
           "duration": 1535
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:40:00.000Z",
-          "stops": [
-            "KUL",
-            "AUH"
-          ],
+          "stops": ["KUL", "AUH"],
           "duration": 1194
         }
       ]
@@ -5193,22 +4248,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:07:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA",
-            "HKG"
-          ],
+          "stops": ["SIN", "SHA", "HKG"],
           "duration": 1426
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:01:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH",
-            "SHA"
-          ],
+          "stops": ["DXB", "AUH", "SHA"],
           "duration": 734
         }
       ]
@@ -5221,21 +4268,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:36:00.000Z",
-          "stops": [
-            "BKK",
-            "IST"
-          ],
+          "stops": ["BKK", "IST"],
           "duration": 1271
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:06:00.000Z",
-          "stops": [
-            "DXB",
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["DXB", "BKK", "KUL"],
           "duration": 1645
         }
       ]
@@ -5248,10 +4288,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:45:00.000Z",
-          "stops": [
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["SIN", "KUL"],
           "duration": 946
         },
         {
@@ -5271,20 +4308,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:49:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1133
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:12:00.000Z",
-          "stops": [
-            "SHA",
-            "IST",
-            "SIN"
-          ],
+          "stops": ["SHA", "IST", "SIN"],
           "duration": 799
         }
       ]
@@ -5304,10 +4335,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:04:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["SIN", "AUH"],
           "duration": 931
         }
       ]
@@ -5320,20 +4348,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:50:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["SHA", "DXB"],
           "duration": 1200
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:40:00.000Z",
-          "stops": [
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["HKG", "BKK"],
           "duration": 1033
         }
       ]
@@ -5346,20 +4368,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:19:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1906
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:24:00.000Z",
-          "stops": [
-            "SHA",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["SHA", "IST", "AUH"],
           "duration": 741
         }
       ]
@@ -5379,9 +4395,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:28:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1219
         }
       ]
@@ -5394,21 +4408,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:20:00.000Z",
-          "stops": [
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["HKG", "DXB"],
           "duration": 1847
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:42:00.000Z",
-          "stops": [
-            "AUH",
-            "IST",
-            "BKK"
-          ],
+          "stops": ["AUH", "IST", "BKK"],
           "duration": 1687
         }
       ]
@@ -5428,10 +4435,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:23:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["BKK", "KUL"],
           "duration": 1540
         }
       ]
@@ -5464,10 +4468,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:11:00.000Z",
-          "stops": [
-            "SIN",
-            "HKG"
-          ],
+          "stops": ["SIN", "HKG"],
           "duration": 736
         },
         {
@@ -5487,10 +4488,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:54:00.000Z",
-          "stops": [
-            "SHA",
-            "IST"
-          ],
+          "stops": ["SHA", "IST"],
           "duration": 905
         },
         {
@@ -5510,21 +4508,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:35:00.000Z",
-          "stops": [
-            "KUL",
-            "IST"
-          ],
+          "stops": ["KUL", "IST"],
           "duration": 1894
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:44:00.000Z",
-          "stops": [
-            "HKG",
-            "IST",
-            "DXB"
-          ],
+          "stops": ["HKG", "IST", "DXB"],
           "duration": 1788
         }
       ]
@@ -5544,10 +4535,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:15:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["SHA", "DXB"],
           "duration": 1898
         }
       ]
@@ -5560,20 +4548,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:32:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1869
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:34:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA",
-            "BKK"
-          ],
+          "stops": ["SIN", "SHA", "BKK"],
           "duration": 1983
         }
       ]
@@ -5586,18 +4568,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:36:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1402
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:08:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1558
         }
       ]
@@ -5650,20 +4628,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:03:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1811
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:00:00.000Z",
-          "stops": [
-            "IST",
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["IST", "KUL", "SIN"],
           "duration": 1988
         }
       ]
@@ -5676,19 +4648,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:03:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["SHA", "KUL"],
           "duration": 751
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:16:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1355
         }
       ]
@@ -5701,21 +4668,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:24:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["IST", "SHA", "AUH"],
           "duration": 1351
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:57:00.000Z",
-          "stops": [
-            "DXB",
-            "IST"
-          ],
+          "stops": ["DXB", "IST"],
           "duration": 1864
         }
       ]
@@ -5728,20 +4688,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:18:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1039
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:52:00.000Z",
-          "stops": [
-            "KUL",
-            "BKK",
-            "SIN"
-          ],
+          "stops": ["KUL", "BKK", "SIN"],
           "duration": 760
         }
       ]
@@ -5754,21 +4708,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:12:00.000Z",
-          "stops": [
-            "HKG",
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["HKG", "KUL", "DXB"],
           "duration": 1397
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:47:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["SHA", "DXB"],
           "duration": 1312
         }
       ]
@@ -5781,20 +4728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:31:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["SIN", "AUH"],
           "duration": 1601
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:41:00.000Z",
-          "stops": [
-            "BKK",
-            "IST"
-          ],
+          "stops": ["BKK", "IST"],
           "duration": 873
         }
       ]
@@ -5827,11 +4768,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:50:00.000Z",
-          "stops": [
-            "IST",
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["IST", "AUH", "DXB"],
           "duration": 1646
         },
         {
@@ -5851,19 +4788,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:45:00.000Z",
-          "stops": [
-            "KUL",
-            "BKK"
-          ],
+          "stops": ["KUL", "BKK"],
           "duration": 1351
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:07:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 651
         }
       ]
@@ -5876,21 +4808,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:30:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["BKK", "KUL"],
           "duration": 815
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:24:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["AUH", "BKK", "HKG"],
           "duration": 1384
         }
       ]
@@ -5903,19 +4828,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:40:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1702
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:04:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["SIN", "BKK"],
           "duration": 1720
         }
       ]
@@ -5928,10 +4848,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:10:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["BKK", "HKG"],
           "duration": 1245
         },
         {
@@ -5958,10 +4875,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:41:00.000Z",
-          "stops": [
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["AUH", "KUL"],
           "duration": 1163
         }
       ]
@@ -5974,19 +4888,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:16:00.000Z",
-          "stops": [
-            "SHA",
-            "IST"
-          ],
+          "stops": ["SHA", "IST"],
           "duration": 764
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:34:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1671
         }
       ]
@@ -6006,11 +4915,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:10:00.000Z",
-          "stops": [
-            "HKG",
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["HKG", "KUL", "SHA"],
           "duration": 1417
         }
       ]
@@ -6023,20 +4928,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:20:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1400
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:07:00.000Z",
-          "stops": [
-            "HKG",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["HKG", "IST", "AUH"],
           "duration": 1154
         }
       ]
@@ -6049,19 +4948,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:18:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1115
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:40:00.000Z",
-          "stops": [
-            "KUL",
-            "IST"
-          ],
+          "stops": ["KUL", "IST"],
           "duration": 1883
         }
       ]
@@ -6074,19 +4968,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:04:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1182
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:20:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA"
-          ],
+          "stops": ["HKG", "SHA"],
           "duration": 818
         }
       ]
@@ -6106,10 +4995,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:19:00.000Z",
-          "stops": [
-            "IST",
-            "SIN"
-          ],
+          "stops": ["IST", "SIN"],
           "duration": 1038
         }
       ]
@@ -6122,18 +5008,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:00:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1893
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:35:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1157
         }
       ]
@@ -6146,18 +5028,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:23:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1773
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:01:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 969
         }
       ]
@@ -6217,11 +5095,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:33:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["BKK", "KUL", "DXB"],
           "duration": 1603
         }
       ]
@@ -6234,21 +5108,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:03:00.000Z",
-          "stops": [
-            "SHA",
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["SHA", "BKK", "KUL"],
           "duration": 1741
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:47:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA"
-          ],
+          "stops": ["BKK", "SHA"],
           "duration": 671
         }
       ]
@@ -6261,18 +5128,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:53:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1332
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:23:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1054
         }
       ]
@@ -6285,19 +5148,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:33:00.000Z",
-          "stops": [
-            "IST",
-            "AUH"
-          ],
+          "stops": ["IST", "AUH"],
           "duration": 649
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:35:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1143
         }
       ]
@@ -6310,10 +5168,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:23:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH"
-          ],
+          "stops": ["HKG", "AUH"],
           "duration": 1763
         },
         {
@@ -6340,10 +5195,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:05:00.000Z",
-          "stops": [
-            "IST",
-            "SIN"
-          ],
+          "stops": ["IST", "SIN"],
           "duration": 895
         }
       ]
@@ -6356,21 +5208,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:55:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH"
-          ],
+          "stops": ["HKG", "AUH"],
           "duration": 1067
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:15:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["SIN", "AUH", "HKG"],
           "duration": 1622
         }
       ]
@@ -6383,20 +5228,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:56:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["KUL", "DXB"],
           "duration": 1896
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:27:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["DXB", "KUL"],
           "duration": 1206
         }
       ]
@@ -6409,22 +5248,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:35:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["IST", "SHA", "AUH"],
           "duration": 1336
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:33:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG",
-            "SIN"
-          ],
+          "stops": ["AUH", "HKG", "SIN"],
           "duration": 1313
         }
       ]
@@ -6437,20 +5268,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:09:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH"
-          ],
+          "stops": ["HKG", "AUH"],
           "duration": 771
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:41:00.000Z",
-          "stops": [
-            "IST",
-            "KUL"
-          ],
+          "stops": ["IST", "KUL"],
           "duration": 951
         }
       ]
@@ -6463,19 +5288,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:11:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1996
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:59:00.000Z",
-          "stops": [
-            "IST",
-            "BKK"
-          ],
+          "stops": ["IST", "BKK"],
           "duration": 1239
         }
       ]
@@ -6488,18 +5308,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:25:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1951
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:54:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1189
         }
       ]
@@ -6512,21 +5328,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T08:05:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA"
-          ],
+          "stops": ["SIN", "SHA"],
           "duration": 941
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:25:00.000Z",
-          "stops": [
-            "BKK",
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["BKK", "AUH", "SIN"],
           "duration": 1958
         }
       ]
@@ -6539,20 +5348,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:35:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1056
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:38:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB",
-            "SHA"
-          ],
+          "stops": ["BKK", "DXB", "SHA"],
           "duration": 1650
         }
       ]
@@ -6565,10 +5368,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:14:00.000Z",
-          "stops": [
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["KUL", "SHA"],
           "duration": 688
         },
         {
@@ -6588,19 +5388,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:29:00.000Z",
-          "stops": [
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["KUL", "SIN"],
           "duration": 870
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:49:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 743
         }
       ]
@@ -6613,9 +5408,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:36:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1926
         },
         {
@@ -6635,20 +5428,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:42:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1821
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:35:00.000Z",
-          "stops": [
-            "IST",
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["IST", "AUH", "HKG"],
           "duration": 1651
         }
       ]
@@ -6688,11 +5475,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:03:00.000Z",
-          "stops": [
-            "DXB",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["DXB", "IST", "AUH"],
           "duration": 1282
         }
       ]
@@ -6712,9 +5495,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:24:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 948
         }
       ]
@@ -6727,20 +5508,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:12:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["DXB", "KUL"],
           "duration": 1971
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:58:00.000Z",
-          "stops": [
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["KUL", "SIN"],
           "duration": 1165
         }
       ]
@@ -6760,11 +5535,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:28:00.000Z",
-          "stops": [
-            "AUH",
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["AUH", "DXB", "KUL"],
           "duration": 882
         }
       ]
@@ -6784,9 +5555,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:32:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1341
         }
       ]
@@ -6799,9 +5568,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:24:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1072
         },
         {
@@ -6828,11 +5595,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:30:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["BKK", "SHA", "DXB"],
           "duration": 1066
         }
       ]
@@ -6852,10 +5615,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:23:00.000Z",
-          "stops": [
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["HKG", "BKK"],
           "duration": 702
         }
       ]
@@ -6868,21 +5628,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T12:42:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["SHA", "KUL", "SIN"],
           "duration": 1359
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:40:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["BKK", "KUL"],
           "duration": 1267
         }
       ]
@@ -6895,11 +5648,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:05:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["BKK", "KUL", "DXB"],
           "duration": 1979
         },
         {
@@ -6919,10 +5668,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:47:00.000Z",
-          "stops": [
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["HKG", "BKK"],
           "duration": 1678
         },
         {
@@ -6949,9 +5695,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:26:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1097
         }
       ]
@@ -6964,11 +5708,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T08:58:00.000Z",
-          "stops": [
-            "HKG",
-            "DXB",
-            "AUH"
-          ],
+          "stops": ["HKG", "DXB", "AUH"],
           "duration": 895
         },
         {
@@ -6988,20 +5728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:37:00.000Z",
-          "stops": [
-            "SHA",
-            "SIN",
-            "HKG"
-          ],
+          "stops": ["SHA", "SIN", "HKG"],
           "duration": 1520
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:36:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1090
         }
       ]
@@ -7014,11 +5748,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:12:00.000Z",
-          "stops": [
-            "IST",
-            "BKK",
-            "SHA"
-          ],
+          "stops": ["IST", "BKK", "SHA"],
           "duration": 1784
         },
         {
@@ -7045,10 +5775,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:24:00.000Z",
-          "stops": [
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["SIN", "KUL"],
           "duration": 1243
         }
       ]
@@ -7061,9 +5788,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:11:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 619
         },
         {
@@ -7083,20 +5808,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:05:00.000Z",
-          "stops": [
-            "IST",
-            "KUL"
-          ],
+          "stops": ["IST", "KUL"],
           "duration": 1918
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:07:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["BKK", "HKG"],
           "duration": 749
         }
       ]
@@ -7109,9 +5828,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:31:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 731
         },
         {
@@ -7131,19 +5848,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:30:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1459
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:47:00.000Z",
-          "stops": [
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["KUL", "SHA"],
           "duration": 1492
         }
       ]
@@ -7156,19 +5868,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:50:00.000Z",
-          "stops": [
-            "KUL",
-            "AUH"
-          ],
+          "stops": ["KUL", "AUH"],
           "duration": 669
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:50:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1909
         }
       ]
@@ -7181,21 +5888,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:58:00.000Z",
-          "stops": [
-            "AUH",
-            "IST",
-            "SIN"
-          ],
+          "stops": ["AUH", "IST", "SIN"],
           "duration": 1705
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:43:00.000Z",
-          "stops": [
-            "SIN",
-            "IST"
-          ],
+          "stops": ["SIN", "IST"],
           "duration": 702
         }
       ]
@@ -7208,9 +5908,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:40:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1400
         },
         {
@@ -7230,20 +5928,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:39:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["AUH", "SHA", "KUL"],
           "duration": 1349
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:33:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1913
         }
       ]
@@ -7256,20 +5948,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:32:00.000Z",
-          "stops": [
-            "IST",
-            "AUH"
-          ],
+          "stops": ["IST", "AUH"],
           "duration": 1508
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:50:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["BKK", "HKG"],
           "duration": 1877
         }
       ]
@@ -7282,10 +5968,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:05:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["DXB", "KUL"],
           "duration": 1316
         },
         {
@@ -7305,11 +5988,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:17:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK",
-            "SHA"
-          ],
+          "stops": ["SIN", "BKK", "SHA"],
           "duration": 1938
         },
         {
@@ -7329,11 +6008,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:33:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["SHA", "AUH", "HKG"],
           "duration": 1476
         },
         {
@@ -7353,10 +6028,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T12:23:00.000Z",
-          "stops": [
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["KUL", "SIN"],
           "duration": 857
         },
         {
@@ -7376,20 +6048,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:25:00.000Z",
-          "stops": [
-            "KUL",
-            "HKG",
-            "SIN"
-          ],
+          "stops": ["KUL", "HKG", "SIN"],
           "duration": 1460
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:44:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1584
         }
       ]
@@ -7402,21 +6068,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:55:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["AUH", "SIN", "KUL"],
           "duration": 1897
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:14:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["DXB", "KUL"],
           "duration": 1460
         }
       ]
@@ -7449,19 +6108,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T12:08:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 991
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:20:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 697
         }
       ]
@@ -7474,19 +6128,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:55:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 804
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:34:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["AUH", "BKK"],
           "duration": 905
         }
       ]
@@ -7499,21 +6148,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:48:00.000Z",
-          "stops": [
-            "KUL",
-            "BKK"
-          ],
+          "stops": ["KUL", "BKK"],
           "duration": 1951
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:10:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["SHA", "KUL", "SIN"],
           "duration": 1853
         }
       ]
@@ -7526,20 +6168,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:14:00.000Z",
-          "stops": [
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["SIN", "BKK"],
           "duration": 1703
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:26:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["SHA", "DXB"],
           "duration": 901
         }
       ]
@@ -7559,11 +6195,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:25:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB",
-            "SHA"
-          ],
+          "stops": ["BKK", "DXB", "SHA"],
           "duration": 1063
         }
       ]
@@ -7576,20 +6208,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:52:00.000Z",
-          "stops": [
-            "DXB",
-            "IST"
-          ],
+          "stops": ["DXB", "IST"],
           "duration": 686
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:25:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["AUH", "BKK"],
           "duration": 1423
         }
       ]
@@ -7602,19 +6228,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:43:00.000Z",
-          "stops": [
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["AUH", "DXB"],
           "duration": 1011
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:01:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1018
         }
       ]
@@ -7634,9 +6255,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:28:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1576
         }
       ]
@@ -7669,10 +6288,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T08:51:00.000Z",
-          "stops": [
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["DXB", "SIN"],
           "duration": 1439
         },
         {
@@ -7692,20 +6308,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:11:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB"
-          ],
+          "stops": ["SIN", "DXB"],
           "duration": 1193
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:27:00.000Z",
-          "stops": [
-            "IST",
-            "BKK"
-          ],
+          "stops": ["IST", "BKK"],
           "duration": 1841
         }
       ]
@@ -7718,20 +6328,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:13:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1720
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:42:00.000Z",
-          "stops": [
-            "KUL",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["KUL", "SHA", "AUH"],
           "duration": 1417
         }
       ]
@@ -7744,20 +6348,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:01:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1628
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:57:00.000Z",
-          "stops": [
-            "SHA",
-            "HKG",
-            "IST"
-          ],
+          "stops": ["SHA", "HKG", "IST"],
           "duration": 1738
         }
       ]
@@ -7770,21 +6368,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:15:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["KUL", "DXB"],
           "duration": 1367
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:41:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["BKK", "SHA", "DXB"],
           "duration": 923
         }
       ]
@@ -7797,21 +6388,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:10:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH"
-          ],
+          "stops": ["DXB", "AUH"],
           "duration": 1587
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:45:00.000Z",
-          "stops": [
-            "IST",
-            "SIN",
-            "BKK"
-          ],
+          "stops": ["IST", "SIN", "BKK"],
           "duration": 1340
         }
       ]
@@ -7824,10 +6408,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:08:00.000Z",
-          "stops": [
-            "IST",
-            "KUL"
-          ],
+          "stops": ["IST", "KUL"],
           "duration": 1654
         },
         {
@@ -7847,20 +6428,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:03:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1322
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:21:00.000Z",
-          "stops": [
-            "AUH",
-            "SHA",
-            "SIN"
-          ],
+          "stops": ["AUH", "SHA", "SIN"],
           "duration": 1012
         }
       ]
@@ -7873,9 +6448,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T12:10:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1864
         },
         {
@@ -7895,10 +6468,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:20:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA"
-          ],
+          "stops": ["BKK", "SHA"],
           "duration": 1437
         },
         {
@@ -7918,19 +6488,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:43:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1153
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T13:53:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["KUL", "DXB"],
           "duration": 1604
         }
       ]
@@ -7943,19 +6508,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:44:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1001
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:29:00.000Z",
-          "stops": [
-            "BKK",
-            "DXB"
-          ],
+          "stops": ["BKK", "DXB"],
           "duration": 1406
         }
       ]
@@ -7975,10 +6535,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:42:00.000Z",
-          "stops": [
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["HKG", "DXB"],
           "duration": 1806
         }
       ]
@@ -7998,9 +6555,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:28:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 625
         }
       ]
@@ -8040,11 +6595,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:36:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL",
-            "AUH"
-          ],
+          "stops": ["BKK", "KUL", "AUH"],
           "duration": 772
         }
       ]
@@ -8057,11 +6608,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:12:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK",
-            "SIN"
-          ],
+          "stops": ["AUH", "BKK", "SIN"],
           "duration": 1414
         },
         {
@@ -8081,21 +6628,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:27:00.000Z",
-          "stops": [
-            "SHA",
-            "BKK"
-          ],
+          "stops": ["SHA", "BKK"],
           "duration": 619
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:45:00.000Z",
-          "stops": [
-            "SIN",
-            "IST",
-            "SHA"
-          ],
+          "stops": ["SIN", "IST", "SHA"],
           "duration": 1316
         }
       ]
@@ -8108,19 +6648,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:20:00.000Z",
-          "stops": [
-            "IST",
-            "SHA"
-          ],
+          "stops": ["IST", "SHA"],
           "duration": 928
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:32:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 996
         }
       ]
@@ -8133,20 +6668,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:34:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 772
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:01:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["AUH", "BKK", "HKG"],
           "duration": 1658
         }
       ]
@@ -8159,22 +6688,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:10:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["HKG", "SHA", "AUH"],
           "duration": 1807
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:54:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB",
-            "IST"
-          ],
+          "stops": ["SIN", "DXB", "IST"],
           "duration": 970
         }
       ]
@@ -8194,9 +6715,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:43:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1850
         }
       ]
@@ -8209,22 +6728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:00:00.000Z",
-          "stops": [
-            "DXB",
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["DXB", "BKK", "AUH"],
           "duration": 1830
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:40:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG",
-            "IST"
-          ],
+          "stops": ["AUH", "HKG", "IST"],
           "duration": 1682
         }
       ]
@@ -8237,20 +6748,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:30:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 648
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:48:00.000Z",
-          "stops": [
-            "HKG",
-            "DXB",
-            "SIN"
-          ],
+          "stops": ["HKG", "DXB", "SIN"],
           "duration": 603
         }
       ]
@@ -8263,20 +6768,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:04:00.000Z",
-          "stops": [
-            "KUL",
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["KUL", "AUH", "SIN"],
           "duration": 745
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:03:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1149
         }
       ]
@@ -8289,21 +6788,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:21:00.000Z",
-          "stops": [
-            "KUL",
-            "HKG",
-            "AUH"
-          ],
+          "stops": ["KUL", "HKG", "AUH"],
           "duration": 1805
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:12:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["BKK", "HKG"],
           "duration": 1066
         }
       ]
@@ -8343,9 +6835,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:05:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 711
         }
       ]
@@ -8358,20 +6848,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:06:00.000Z",
-          "stops": [
-            "AUH",
-            "IST",
-            "BKK"
-          ],
+          "stops": ["AUH", "IST", "BKK"],
           "duration": 1604
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:31:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 645
         }
       ]
@@ -8384,10 +6868,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:40:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["AUH", "HKG"],
           "duration": 1664
         },
         {
@@ -8407,18 +6888,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:14:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1541
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:22:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 932
         }
       ]
@@ -8431,20 +6908,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:13:00.000Z",
-          "stops": [
-            "SHA",
-            "IST",
-            "AUH"
-          ],
+          "stops": ["SHA", "IST", "AUH"],
           "duration": 1852
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:17:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1054
         }
       ]
@@ -8457,9 +6928,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:40:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1867
         },
         {
@@ -8479,19 +6948,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:14:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 931
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:33:00.000Z",
-          "stops": [
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["KUL", "SHA"],
           "duration": 1219
         }
       ]
@@ -8504,20 +6968,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:45:00.000Z",
-          "stops": [
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["KUL", "SHA"],
           "duration": 1526
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:32:00.000Z",
-          "stops": [
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["SIN", "KUL"],
           "duration": 932
         }
       ]
@@ -8537,9 +6995,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:48:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1424
         }
       ]
@@ -8572,22 +7028,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:02:00.000Z",
-          "stops": [
-            "SHA",
-            "IST",
-            "BKK"
-          ],
+          "stops": ["SHA", "IST", "BKK"],
           "duration": 1767
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:54:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL",
-            "AUH"
-          ],
+          "stops": ["DXB", "KUL", "AUH"],
           "duration": 1777
         }
       ]
@@ -8600,20 +7048,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:04:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["IST", "SHA", "KUL"],
           "duration": 1688
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:46:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1230
         }
       ]
@@ -8626,10 +7068,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:58:00.000Z",
-          "stops": [
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["HKG", "BKK"],
           "duration": 1371
         },
         {
@@ -8649,20 +7088,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:44:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH",
-            "KUL"
-          ],
+          "stops": ["DXB", "AUH", "KUL"],
           "duration": 1088
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:49:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 744
         }
       ]
@@ -8675,9 +7108,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:52:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1151
         },
         {
@@ -8697,20 +7128,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:08:00.000Z",
-          "stops": [
-            "IST",
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["IST", "BKK", "KUL"],
           "duration": 1353
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:44:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1007
         }
       ]
@@ -8723,20 +7148,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:38:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 657
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:38:00.000Z",
-          "stops": [
-            "SHA",
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["SHA", "BKK", "AUH"],
           "duration": 1978
         }
       ]
@@ -8749,20 +7168,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:08:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1251
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:30:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH",
-            "SHA"
-          ],
+          "stops": ["SIN", "AUH", "SHA"],
           "duration": 1178
         }
       ]
@@ -8775,22 +7188,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:52:00.000Z",
-          "stops": [
-            "IST",
-            "HKG",
-            "SIN"
-          ],
+          "stops": ["IST", "HKG", "SIN"],
           "duration": 779
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T08:10:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["DXB", "AUH", "HKG"],
           "duration": 1637
         }
       ]
@@ -8803,18 +7208,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T12:49:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1454
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:01:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1056
         }
       ]
@@ -8847,19 +7248,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:59:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1977
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:58:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SHA", "AUH"],
           "duration": 1413
         }
       ]
@@ -8879,10 +7275,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:01:00.000Z",
-          "stops": [
-            "IST",
-            "SHA"
-          ],
+          "stops": ["IST", "SHA"],
           "duration": 1683
         }
       ]
@@ -8895,20 +7288,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:42:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 644
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:39:00.000Z",
-          "stops": [
-            "SHA",
-            "DXB",
-            "IST"
-          ],
+          "stops": ["SHA", "DXB", "IST"],
           "duration": 1291
         }
       ]
@@ -8941,19 +7328,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:31:00.000Z",
-          "stops": [
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["SIN", "KUL"],
           "duration": 750
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:39:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 841
         }
       ]
@@ -8966,21 +7348,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:23:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG",
-            "IST"
-          ],
+          "stops": ["BKK", "HKG", "IST"],
           "duration": 1709
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:37:00.000Z",
-          "stops": [
-            "KUL",
-            "DXB"
-          ],
+          "stops": ["KUL", "DXB"],
           "duration": 809
         }
       ]
@@ -8993,19 +7368,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:07:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1966
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:13:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH"
-          ],
+          "stops": ["DXB", "AUH"],
           "duration": 1962
         }
       ]
@@ -9018,20 +7388,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:29:00.000Z",
-          "stops": [
-            "SHA",
-            "IST",
-            "HKG"
-          ],
+          "stops": ["SHA", "IST", "HKG"],
           "duration": 1206
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:30:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1040
         }
       ]
@@ -9051,11 +7415,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:33:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL",
-            "AUH"
-          ],
+          "stops": ["BKK", "KUL", "AUH"],
           "duration": 1914
         }
       ]
@@ -9068,19 +7428,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:31:00.000Z",
-          "stops": [
-            "HKG",
-            "IST"
-          ],
+          "stops": ["HKG", "IST"],
           "duration": 987
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:02:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1617
         }
       ]
@@ -9093,11 +7448,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:47:00.000Z",
-          "stops": [
-            "SHA",
-            "SIN",
-            "AUH"
-          ],
+          "stops": ["SHA", "SIN", "AUH"],
           "duration": 1430
         },
         {
@@ -9117,21 +7468,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T11:14:00.000Z",
-          "stops": [
-            "BKK",
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["BKK", "AUH", "DXB"],
           "duration": 1993
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:27:00.000Z",
-          "stops": [
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["AUH", "DXB"],
           "duration": 645
         }
       ]
@@ -9144,10 +7488,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:04:00.000Z",
-          "stops": [
-            "DXB",
-            "SHA"
-          ],
+          "stops": ["DXB", "SHA"],
           "duration": 1488
         },
         {
@@ -9167,19 +7508,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T15:25:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["AUH", "SIN"],
           "duration": 1584
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:32:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1387
         }
       ]
@@ -9219,11 +7555,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T05:08:00.000Z",
-          "stops": [
-            "IST",
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["IST", "AUH", "BKK"],
           "duration": 1432
         }
       ]
@@ -9236,9 +7568,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:08:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 1427
         },
         {
@@ -9258,9 +7588,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:08:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1539
         },
         {
@@ -9280,21 +7608,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:17:00.000Z",
-          "stops": [
-            "SHA",
-            "HKG"
-          ],
+          "stops": ["SHA", "HKG"],
           "duration": 1215
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:40:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG",
-            "IST"
-          ],
+          "stops": ["AUH", "HKG", "IST"],
           "duration": 1844
         }
       ]
@@ -9314,10 +7635,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T21:00:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH"
-          ],
+          "stops": ["DXB", "AUH"],
           "duration": 1880
         }
       ]
@@ -9330,20 +7648,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:03:00.000Z",
-          "stops": [
-            "IST",
-            "BKK"
-          ],
+          "stops": ["IST", "BKK"],
           "duration": 963
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:38:00.000Z",
-          "stops": [
-            "BKK",
-            "AUH"
-          ],
+          "stops": ["BKK", "AUH"],
           "duration": 1034
         }
       ]
@@ -9356,19 +7668,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:46:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1255
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T09:40:00.000Z",
-          "stops": [
-            "BKK",
-            "SIN"
-          ],
+          "stops": ["BKK", "SIN"],
           "duration": 800
         }
       ]
@@ -9381,20 +7688,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T23:05:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "BKK"
-          ],
+          "stops": ["IST", "SHA", "BKK"],
           "duration": 1274
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:41:00.000Z",
-          "stops": [
-            "SIN"
-          ],
+          "stops": ["SIN"],
           "duration": 1041
         }
       ]
@@ -9414,10 +7715,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:31:00.000Z",
-          "stops": [
-            "AUH",
-            "HKG"
-          ],
+          "stops": ["AUH", "HKG"],
           "duration": 1879
         }
       ]
@@ -9430,18 +7728,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:39:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1178
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:24:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1847
         }
       ]
@@ -9454,9 +7748,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T10:54:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1672
         },
         {
@@ -9496,11 +7788,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:09:00.000Z",
-          "stops": [
-            "SIN",
-            "HKG",
-            "KUL"
-          ],
+          "stops": ["SIN", "HKG", "KUL"],
           "duration": 1286
         },
         {
@@ -9520,18 +7808,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T17:47:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1390
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:27:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1458
         }
       ]
@@ -9544,20 +7828,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:10:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL",
-            "SHA"
-          ],
+          "stops": ["DXB", "KUL", "SHA"],
           "duration": 1207
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:41:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1440
         }
       ]
@@ -9570,18 +7848,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:55:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 903
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T12:46:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1830
         }
       ]
@@ -9594,19 +7868,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:28:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1914
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:24:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH"
-          ],
+          "stops": ["DXB", "AUH"],
           "duration": 1695
         }
       ]
@@ -9626,11 +7895,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T01:46:00.000Z",
-          "stops": [
-            "SIN",
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["SIN", "AUH", "DXB"],
           "duration": 720
         }
       ]
@@ -9643,9 +7908,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:54:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 601
         },
         {
@@ -9665,21 +7928,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:47:00.000Z",
-          "stops": [
-            "IST",
-            "SHA",
-            "DXB"
-          ],
+          "stops": ["IST", "SHA", "DXB"],
           "duration": 868
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T10:39:00.000Z",
-          "stops": [
-            "BKK",
-            "KUL"
-          ],
+          "stops": ["BKK", "KUL"],
           "duration": 1105
         }
       ]
@@ -9699,11 +7955,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:22:00.000Z",
-          "stops": [
-            "IST",
-            "SIN",
-            "SHA"
-          ],
+          "stops": ["IST", "SIN", "SHA"],
           "duration": 1074
         }
       ]
@@ -9716,22 +7968,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:55:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG",
-            "SHA"
-          ],
+          "stops": ["BKK", "HKG", "SHA"],
           "duration": 1823
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:03:00.000Z",
-          "stops": [
-            "KUL",
-            "IST",
-            "DXB"
-          ],
+          "stops": ["KUL", "IST", "DXB"],
           "duration": 1895
         }
       ]
@@ -9744,18 +7988,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T05:02:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 1644
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:37:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1066
         }
       ]
@@ -9775,10 +8015,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:22:00.000Z",
-          "stops": [
-            "HKG",
-            "BKK"
-          ],
+          "stops": ["HKG", "BKK"],
           "duration": 1598
         }
       ]
@@ -9798,11 +8035,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:37:00.000Z",
-          "stops": [
-            "BKK",
-            "SIN",
-            "KUL"
-          ],
+          "stops": ["BKK", "SIN", "KUL"],
           "duration": 829
         }
       ]
@@ -9815,20 +8048,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:21:00.000Z",
-          "stops": [
-            "IST",
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["IST", "HKG", "DXB"],
           "duration": 816
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:00:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 786
         }
       ]
@@ -9841,19 +8068,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:10:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1629
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T03:01:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SHA", "AUH"],
           "duration": 1157
         }
       ]
@@ -9873,9 +8095,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T02:41:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1596
         }
       ]
@@ -9888,20 +8108,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T16:51:00.000Z",
-          "stops": [
-            "HKG",
-            "SIN",
-            "IST"
-          ],
+          "stops": ["HKG", "SIN", "IST"],
           "duration": 894
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T17:15:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1535
         }
       ]
@@ -9934,19 +8148,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:09:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1355
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T14:36:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG"
-          ],
+          "stops": ["BKK", "HKG"],
           "duration": 1069
         }
       ]
@@ -9966,10 +8175,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T23:29:00.000Z",
-          "stops": [
-            "AUH",
-            "BKK"
-          ],
+          "stops": ["AUH", "BKK"],
           "duration": 1412
         }
       ]
@@ -9989,10 +8195,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T00:24:00.000Z",
-          "stops": [
-            "SHA",
-            "KUL"
-          ],
+          "stops": ["SHA", "KUL"],
           "duration": 1400
         }
       ]
@@ -10005,21 +8208,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T02:04:00.000Z",
-          "stops": [
-            "DXB",
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["DXB", "AUH", "SIN"],
           "duration": 1698
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:13:00.000Z",
-          "stops": [
-            "HKG",
-            "SIN"
-          ],
+          "stops": ["HKG", "SIN"],
           "duration": 1592
         }
       ]
@@ -10032,20 +8228,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T21:31:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 765
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:23:00.000Z",
-          "stops": [
-            "SIN",
-            "SHA",
-            "IST"
-          ],
+          "stops": ["SIN", "SHA", "IST"],
           "duration": 1154
         }
       ]
@@ -10058,21 +8248,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T03:34:00.000Z",
-          "stops": [
-            "HKG",
-            "SHA",
-            "BKK"
-          ],
+          "stops": ["HKG", "SHA", "BKK"],
           "duration": 1094
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T07:42:00.000Z",
-          "stops": [
-            "DXB",
-            "KUL"
-          ],
+          "stops": ["DXB", "KUL"],
           "duration": 1436
         }
       ]
@@ -10085,10 +8268,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T00:28:00.000Z",
-          "stops": [
-            "SHA",
-            "SIN"
-          ],
+          "stops": ["SHA", "SIN"],
           "duration": 652
         },
         {
@@ -10108,21 +8288,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T13:08:00.000Z",
-          "stops": [
-            "HKG",
-            "AUH"
-          ],
+          "stops": ["HKG", "AUH"],
           "duration": 1524
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:44:00.000Z",
-          "stops": [
-            "BKK",
-            "HKG",
-            "DXB"
-          ],
+          "stops": ["BKK", "HKG", "DXB"],
           "duration": 848
         }
       ]
@@ -10142,10 +8315,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T15:27:00.000Z",
-          "stops": [
-            "HKG",
-            "KUL"
-          ],
+          "stops": ["HKG", "KUL"],
           "duration": 1602
         }
       ]
@@ -10165,9 +8335,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:03:00.000Z",
-          "stops": [
-            "DXB"
-          ],
+          "stops": ["DXB"],
           "duration": 880
         }
       ]
@@ -10180,9 +8348,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-21T22:10:00.000Z",
-          "stops": [
-            "SHA"
-          ],
+          "stops": ["SHA"],
           "duration": 845
         },
         {
@@ -10202,18 +8368,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:25:00.000Z",
-          "stops": [
-            "IST"
-          ],
+          "stops": ["IST"],
           "duration": 1909
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T04:12:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 1264
         }
       ]
@@ -10226,21 +8388,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T09:41:00.000Z",
-          "stops": [
-            "BKK",
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["BKK", "SHA", "AUH"],
           "duration": 1854
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:05:00.000Z",
-          "stops": [
-            "SIN",
-            "DXB"
-          ],
+          "stops": ["SIN", "DXB"],
           "duration": 1137
         }
       ]
@@ -10253,9 +8408,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T04:11:00.000Z",
-          "stops": [
-            "BKK"
-          ],
+          "stops": ["BKK"],
           "duration": 1628
         },
         {
@@ -10275,10 +8428,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T07:40:00.000Z",
-          "stops": [
-            "AUH",
-            "SIN"
-          ],
+          "stops": ["AUH", "SIN"],
           "duration": 1151
         },
         {
@@ -10298,20 +8448,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T06:43:00.000Z",
-          "stops": [
-            "HKG",
-            "KUL"
-          ],
+          "stops": ["HKG", "KUL"],
           "duration": 836
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T11:35:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH"
-          ],
+          "stops": ["SHA", "AUH"],
           "duration": 1233
         }
       ]
@@ -10324,11 +8468,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:34:00.000Z",
-          "stops": [
-            "SHA",
-            "AUH",
-            "DXB"
-          ],
+          "stops": ["SHA", "AUH", "DXB"],
           "duration": 1195
         },
         {
@@ -10355,9 +8495,7 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T06:47:00.000Z",
-          "stops": [
-            "HKG"
-          ],
+          "stops": ["HKG"],
           "duration": 896
         }
       ]
@@ -10370,10 +8508,7 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T14:46:00.000Z",
-          "stops": [
-            "KUL",
-            "SIN"
-          ],
+          "stops": ["KUL", "SIN"],
           "duration": 1659
         },
         {
@@ -10393,18 +8528,14 @@ export const mockResponse = {
           "origin": "MOW",
           "destination": "HKT",
           "date": "2021-10-22T01:56:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1806
         },
         {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-10T22:51:00.000Z",
-          "stops": [
-            "KUL"
-          ],
+          "stops": ["KUL"],
           "duration": 1678
         }
       ]
@@ -10424,13 +8555,10 @@ export const mockResponse = {
           "origin": "HKT",
           "destination": "MOW",
           "date": "2021-11-11T16:15:00.000Z",
-          "stops": [
-            "AUH"
-          ],
+          "stops": ["AUH"],
           "duration": 1890
         }
       ]
     }
-  ],
-  "stop": false
+  ]
 }
