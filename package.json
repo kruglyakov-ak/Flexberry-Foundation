@@ -1,3 +1,4 @@
+{
   "name": "flexberry-foundation",
   "version": "1.0.0",
   "description": "Тестовое задание для flexberry-foundation",
@@ -24,3 +25,5 @@
   },
   "engines": {
     "node": "16"
+  }
+}
