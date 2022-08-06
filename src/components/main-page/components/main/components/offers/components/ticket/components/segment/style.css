@@ -1,0 +1,20 @@
+.segment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 141px;
+  padding-bottom: 12px;
+}
+
+.column__title {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #a0b0b9;
+}
+
+.column__content {
+  font-size: 14px;
+  line-height: 21px;
+}
