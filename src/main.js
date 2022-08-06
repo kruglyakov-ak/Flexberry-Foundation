@@ -6,6 +6,7 @@ import { createSortTemplate } from "./view/sort";
 import { createTicketsListTemplate } from "./view/tickets-list";
 import { createTicketTemplate } from "./view/ticket";
 import { createMoreButtonTemplate } from "./view/more-button";
+import {RenderPosition, render} from './utils';
 
 const TICKETS_COUNT_PER_STEP = 5;
 const tickets = [
@@ -8571,37 +8572,33 @@ const tickets = [
   },
 ];
 
-const render = (container, template, place) => {
-  container.insertAdjacentHTML(place, template);
-};
-
 const bodyElement = document.querySelector("body");
 
-render(bodyElement, createHeaderTemplate(), "beforeend");
-render(bodyElement, createMainTemplate(), "beforeend");
+render(bodyElement, createHeaderTemplate(), RenderPosition.BEFOREEND);
+render(bodyElement, createMainTemplate(), RenderPosition.BEFOREEND);
 
 const mainElement = document.querySelector(".main");
 
-render(mainElement, createFiltersTemplate(), "beforeend");
-render(mainElement, createOffersTemplate(), "beforeend");
+render(mainElement, createFiltersTemplate(), RenderPosition.BEFOREEND);
+render(mainElement, createOffersTemplate(), RenderPosition.BEFOREEND);
 
 const offersSectionElement = document.querySelector(".offers");
 
-render(offersSectionElement, createSortTemplate(), "beforeend");
-render(offersSectionElement, createTicketsListTemplate(), "beforeend");
+render(offersSectionElement, createSortTemplate(), RenderPosition.BEFOREEND);
+render(offersSectionElement, createTicketsListTemplate(), RenderPosition.BEFOREEND);
 
 const ticketsListElement = document.querySelector(".tickets-list");
 
 tickets
   .slice(0, TICKETS_COUNT_PER_STEP)
   .forEach((ticket) =>
-    render(ticketsListElement, createTicketTemplate(ticket), "beforeend")
+    render(ticketsListElement, createTicketTemplate(ticket), RenderPosition.BEFOREEND)
   );
 
 if (tickets.length > TICKETS_COUNT_PER_STEP) {
   let renderTicketsCount = TICKETS_COUNT_PER_STEP;
 
-  render(offersSectionElement, createMoreButtonTemplate(), "beforeend");
+  render(offersSectionElement, createMoreButtonTemplate(), RenderPosition.BEFOREEND);
 
   const moreButtonElement = document.querySelector(".more-button");
 
@@ -8611,7 +8608,7 @@ if (tickets.length > TICKETS_COUNT_PER_STEP) {
     tickets
       .slice(renderTicketsCount, renderTicketsCount + TICKETS_COUNT_PER_STEP)
       .forEach((ticket) =>
-        render(ticketsListElement, createTicketTemplate(ticket), "beforeend")
+        render(ticketsListElement, createTicketTemplate(ticket), RenderPosition.BEFOREEND)
       );
 
     renderTicketsCount += TICKETS_COUNT_PER_STEP;
