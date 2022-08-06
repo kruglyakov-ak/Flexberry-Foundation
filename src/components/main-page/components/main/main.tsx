@@ -1,14 +1,16 @@
 import { useState, ChangeEvent, SyntheticEvent, useEffect } from "react";
 import { FilterNames, SortTabNames } from "../../../../const";
-import { mockResponse } from "../../../../mocks/tickets";
 import { Ticket } from "../../../../types/ticket";
 import { filterData, sortData } from "../../../../utils";
 import Filters from "./components/filters/filters";
 import Offers from "./components/offers/offers";
 import "./style.css";
 
-function Main() {
-  const [tickets] = useState<Ticket[]>(mockResponse.tickets);
+type MainProps = {
+  tickets: Ticket[];
+}
+
+function Main({tickets}: MainProps) {
   const [filters, setFilters] = useState<FilterNames[]>([
     FilterNames.NonTransfer,
     FilterNames.Transfer1,
