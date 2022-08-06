@@ -1,3 +1,5 @@
+import {createElement} from "../utils"
+
 const createFiltersTemplate = () => (`
   <aside class="filters">
     <h2 class="filters__title">Количество пересадок</h2>
@@ -41,4 +43,24 @@ const createFiltersTemplate = () => (`
   </aside>
 `);
 
-export { createFiltersTemplate };
+export default class FiltersView {
+  constructor() {
+    this._element = null;
+  }
+
+  getTemplate() {
+    return createFiltersTemplate();
+  }
+
+  getElement() {
+    if (!this._element) {
+      this._element = createElement(this.getTemplate());
+    }
+
+    return this._element;
+  }
+
+  removeElement() {
+    this._element = null;
+  }
+}

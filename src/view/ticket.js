@@ -1,3 +1,5 @@
+import { createElement } from "../utils";
+
 const createTicketTemplate = (ticket) => `
   <article class="ticket">
     <div class="ticket-header">
@@ -65,4 +67,25 @@ const createTicketTemplate = (ticket) => `
   </article>
 `;
 
-export { createTicketTemplate };
+export default class TicketView {
+  constructor(ticket) {
+    this.ticket = ticket;
+    this._element = null;
+  }
+
+  getTemplate() {
+    return createTicketTemplate(this.ticket);
+  }
+
+  getElement() {
+    if (!this._element) {
+      this._element = createElement(this.getTemplate());
+    }
+
+    return this._element;
+  }
+
+  removeElement() {
+    this._element = null;
+  }
+}

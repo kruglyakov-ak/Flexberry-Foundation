@@ -1,3 +1,5 @@
+import {createElement} from "../utils"
+
 const createSortTemplate = () => (`
   <ul class="sort-tabs">
     <li class="sort-tabs__item">
@@ -18,4 +20,24 @@ const createSortTemplate = () => (`
   </ul>
 `);
 
-export { createSortTemplate };
+export default class SortView {
+  constructor() {
+    this._element = null;
+  }
+
+  getTemplate() {
+    return createSortTemplate();
+  }
+
+  getElement() {
+    if (!this._element) {
+      this._element = createElement(this.getTemplate());
+    }
+
+    return this._element;
+  }
+
+  removeElement() {
+    this._element = null;
+  }
+}

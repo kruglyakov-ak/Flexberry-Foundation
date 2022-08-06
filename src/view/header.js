@@ -1,3 +1,5 @@
+import {createElement} from "../utils"
+
 const createHeaderTemplate = () => (`
   <header class="header">
   <a class="header__logo-link" href="#">
@@ -12,5 +14,25 @@ const createHeaderTemplate = () => (`
   </header>
 `);
 
-export { createHeaderTemplate };
+export default class HeaderView {
+  constructor() {
+    this._element = null;
+  }
+
+  getTemplate() {
+    return createHeaderTemplate();
+  }
+
+  getElement() {
+    if (!this._element) {
+      this._element = createElement(this.getTemplate());
+    }
+
+    return this._element;
+  }
+
+  removeElement() {
+    this._element = null;
+  }
+}
 
