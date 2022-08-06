@@ -1,11 +1,7 @@
-import { createHeaderTemplate } from "./view/header";
-import { createMainTemplate } from "./view/main";
-import { createFiltersTemplate } from "./view/filters";
-import { createOffersTemplate } from "./view/offers";
-import { createSortTemplate } from "./view/sort";
-import { createTicketsListTemplate } from "./view/tickets-list";
-import { createTicketTemplate } from "./view/ticket";
-import { createMoreButtonTemplate } from "./view/more-button";
+import TicketsPresenter from "./presenter/tickets-presenter";
+import HeaderView from "./view/header";
+import MainView from "./view/main";
+import { render } from "./utils";
 
 const TICKETS_COUNT_PER_STEP = 5;
 const tickets = [
@@ -8571,53 +8567,42 @@ const tickets = [
   },
 ];
 
-const render = (container, template, place) => {
-  container.insertAdjacentHTML(place, template);
-};
-
 const bodyElement = document.querySelector("body");
+const ticketsPresenter = new TicketsPresenter(tickets);
 
-render(bodyElement, createHeaderTemplate(), "beforeend");
-render(bodyElement, createMainTemplate(), "beforeend");
+render(new HeaderView(), bodyElement);
+render(new MainView(), bodyElement);
 
-const mainElement = document.querySelector(".main");
+const mainElement = bodyElement.querySelector(".main");
 
-render(mainElement, createFiltersTemplate(), "beforeend");
-render(mainElement, createOffersTemplate(), "beforeend");
+ticketsPresenter.init(mainElement);
 
-const offersSectionElement = document.querySelector(".offers");
+// tickets
+//   .slice(0, TICKETS_COUNT_PER_STEP)
+//   .forEach((ticket) =>
+//     renderTemplate(ticketsListElement, createTicketTemplate(ticket), "beforeend")
+//   );
 
-render(offersSectionElement, createSortTemplate(), "beforeend");
-render(offersSectionElement, createTicketsListTemplate(), "beforeend");
+// if (tickets.length > TICKETS_COUNT_PER_STEP) {
+//   let renderTemplateTicketsCount = TICKETS_COUNT_PER_STEP;
 
-const ticketsListElement = document.querySelector(".tickets-list");
+//   renderTemplate(offersSectionElement, createMoreButtonTemplate(), "beforeend");
 
-tickets
-  .slice(0, TICKETS_COUNT_PER_STEP)
-  .forEach((ticket) =>
-    render(ticketsListElement, createTicketTemplate(ticket), "beforeend")
-  );
+//   const moreButtonElement = document.querySelector(".more-button");
 
-if (tickets.length > TICKETS_COUNT_PER_STEP) {
-  let renderTicketsCount = TICKETS_COUNT_PER_STEP;
+//   moreButtonElement.addEventListener("click", (evt) => {
+//     evt.preventDefault();
 
-  render(offersSectionElement, createMoreButtonTemplate(), "beforeend");
+//     tickets
+//       .slice(renderTemplateTicketsCount, renderTemplateTicketsCount + TICKETS_COUNT_PER_STEP)
+//       .forEach((ticket) =>
+//         renderTemplate(ticketsListElement, createTicketTemplate(ticket), "beforeend")
+//       );
 
-  const moreButtonElement = document.querySelector(".more-button");
+//     renderTemplateTicketsCount += TICKETS_COUNT_PER_STEP;
 
-  moreButtonElement.addEventListener("click", (evt) => {
-    evt.preventDefault();
-
-    tickets
-      .slice(renderTicketsCount, renderTicketsCount + TICKETS_COUNT_PER_STEP)
-      .forEach((ticket) =>
-        render(ticketsListElement, createTicketTemplate(ticket), "beforeend")
-      );
-
-    renderTicketsCount += TICKETS_COUNT_PER_STEP;
-
-    if (renderTicketsCount >= tickets.length) {
-      moreButtonElement.remove();
-    }
-  });
-}
+//     if (renderTemplateTicketsCount >= tickets.length) {
+//       moreButtonElement.remove();
+//     }
+//   });
+// }
