@@ -1,10 +1,10 @@
-const createTicketTemplate = () => (`
+const createTicketTemplate = (ticket) => `
   <article class="ticket">
     <div class="ticket-header">
-      <p class="ticket-header__price">13 400 Р</p>
+      <p class="ticket-header__price">${ticket.price} Р</p>
       <img
         class="ticket-header__aircompany-logo"
-        src="http://pics.avs.io/110/36/S7.png"
+        src="http://pics.avs.io/110/36/${ticket.carrier}.png"
         alt="airline logo"
         width="110"
         height="36"
@@ -14,39 +14,55 @@ const createTicketTemplate = () => (`
     <div class="ticket-body">
       <div class="route">
         <div class="column">
-          <div class="column__title">MOW – HKT</div>
-          <div class="column__content">10:45 – 08:00</div>
+          <div class="column__title">
+            ${ticket.segments[0].origin} – ${ticket.segments[0].destination}
+          </div>
+          <div class="column__content">${ticket.segments[0].date}</div>
         </div>
 
         <div class="column">
           <div class="column__title">В пути</div>
-          <div class="column__content">21ч 15м</div>
+          <div class="column__content">${ticket.segments[0].duration}</div>
         </div>
 
         <div class="column">
-          <div class="column__title">2 пересадки</div>
-          <div class="column__content">HKG, JNB</div>
+          <div class="column__title">${
+            ticket.segments[0].stops.length
+          } пересадки</div>
+          <div class="column__content">${ticket.segments[0].stops.join(
+            ", "
+          )}</div>
         </div>
       </div>
 
-      <div class="route">
-        <div class="column">
-          <div class="column__title">MOW – HKT</div>
-          <div class="column__content">11:20 – 00:50</div>
-        </div>
 
-        <div class="column">
-          <div class="column__title">В пути</div>
-          <div class="column__content">13ч 30м</div>
+    <div class="ticket-body">
+    <div class="route">
+      <div class="column">
+        <div class="column__title">
+          ${ticket.segments[1].origin} – ${ticket.segments[1].destination}
         </div>
+        <div class="column__content">${ticket.segments[1].date}</div>
+      </div>
 
-        <div class="column">
-          <div class="column__title">1 пересадка</div>
-          <div class="column__content">HKG</div>
-        </div>
+      <div class="column">
+        <div class="column__title">В пути</div>
+        <div class="column__content">${ticket.segments[1].duration}</div>
+      </div>
+
+      <div class="column">
+        <div class="column__title">${
+          ticket.segments[1].stops.length
+        } пересадки</div>
+        <div class="column__content">${ticket.segments[1].stops.join(
+          ", "
+        )}</div>
+      </div>
+    </div>
+
       </div>
     </div>
   </article>
-`);
+`;
 
 export { createTicketTemplate };
