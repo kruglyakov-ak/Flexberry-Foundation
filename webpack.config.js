@@ -1,23 +1,32 @@
 const path = require('path');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-    entry: './src/main.js',
-    module: {
-        rules: [
-          { test: /\.svg$/, use: 'svg-inline-loader' },
-          { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] },
-          { test: /\.(js)$/, use: 'babel-loader' }
-        ]
+  entry: './src/main.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'build'),
+    clean: true,
+  },
+  devtool: 'source-map',
+  plugins: [
+    new CopyPlugin({
+      patterns: [{ from: 'public' }],
+    }),
+  ],
+  module: {
+    rules: [
+        {
+          test: /\.js$/,
+          exclude: /(node_modules)/,
+          use: ['babel-loader']
+        }
+    ]
+  },
+  devServer: {
+    static: {
+        directory: path.join(__dirname, 'public'),
       },
-    output: {
-      filename: 'bundle.js',
-      path: path.resolve(__dirname, 'public'),
-    },
-    mode: 'development',
-    devServer: {
-        static: {
-            directory: path.join(__dirname, 'public'),
-          },
-          port: 3000,
-      }
-}
+      port: 3000,
+  }
+};
