@@ -27,6 +27,7 @@ function Main({tickets}: MainProps) {
     setFilteredTickets(
       sortData(filterData(tickets, filters), sortType).slice().splice(0, showCount)
     );
+    setIsMoreButtonShow(true);
 
     if (filterData(tickets, filters).length - showCount <= 0) {
       setIsMoreButtonShow(false);
