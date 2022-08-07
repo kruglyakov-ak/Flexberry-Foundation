@@ -1,5 +1,5 @@
-import { RenderPosition, FiltersNames } from "./const";
-import Abstract from './view/abstract';
+import { RenderPosition, FiltersNames, SortType } from "./const";
+import Abstract from "./view/abstract";
 
 const createElement = (template) => {
   const newElement = document.createElement("div");
@@ -72,4 +72,27 @@ const filterTickets = (tickets, filters) => {
   );
 };
 
-export { RenderPosition, createElement, render, filterTickets, remove };
+const sortTickets = (tickets, sortType) => {
+  switch (sortType) {
+    case SortType.PRICE:
+      return tickets.sort((prev, next) => prev.price - next.price);
+    case SortType.SPEED:
+      return tickets.sort((prev, next) => {
+        const prevDuration =
+          prev.segments[0].duration + prev.segments[1].duration;
+        const nextDuration =
+          next.segments[0].duration + next.segments[1].duration;
+
+        return prevDuration - nextDuration;
+      });
+  }
+};
+
+export {
+  RenderPosition,
+  createElement,
+  render,
+  filterTickets,
+  remove,
+  sortTickets,
+};
