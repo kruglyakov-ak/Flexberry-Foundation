@@ -88,6 +88,24 @@ const sortTickets = (tickets, sortType) => {
   }
 };
 
+const convertTransfer = (stopsLength) => {
+  switch (stopsLength) {
+    case 0:
+      return "Без пересадок";
+    case 1:
+      return "1 пересадка";
+    default:
+      return `${stopsLength} пересадки`;
+  }
+};
+
+const humanizeDuration = (duration) => {
+  const hours = Math.floor(duration / 60);
+  const minutes = duration - hours * 60;
+
+  return `${hours}ч ${minutes}м`;
+};
+
 export {
   RenderPosition,
   createElement,
@@ -95,4 +113,6 @@ export {
   filterTickets,
   remove,
   sortTickets,
+  convertTransfer,
+  humanizeDuration,
 };
