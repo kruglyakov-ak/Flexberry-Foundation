@@ -2,7 +2,7 @@ import TicketsPresenter from "./presenter/tickets-presenter";
 import HeaderView from "./view/header";
 import MainView from "./view/main";
 import { render } from "./utils";
-import { FiltersNames } from "./const";
+import { FiltersNames, SortType } from "./const";
 
 const tickets = [
   {
@@ -8572,8 +8572,10 @@ const filters = [
   FiltersNames.TWO_TRANSFER,
 ];
 
+const sortType = SortType.PRICE;
+
 const bodyElement = document.querySelector("body");
-const ticketsPresenter = new TicketsPresenter(tickets, filters);
+const ticketsPresenter = new TicketsPresenter(tickets, filters, sortType);
 
 render(new HeaderView(), bodyElement);
 render(new MainView(), bodyElement);
