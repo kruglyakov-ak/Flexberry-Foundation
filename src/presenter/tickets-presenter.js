@@ -9,22 +9,25 @@ import { render } from "../utils";
 const TICKETS_COUNT_PER_STEP = 5;
 
 export default class TicketsPresenter {
-  constructor(tickets) {
+  constructor(tickets, filters) {
     this._tickets = tickets;
+    this._filters = filters;
     this._renderedTicketsCount = TICKETS_COUNT_PER_STEP;
 
     this._offersComponent = new OffersView();
     this._ticketsListComponent = new TicketsListView();
+    this._filtersComponent = null;
     this._moreButtonComponent = null;
 
+    this._handleFiltersChange = this._handleFiltersChange.bind(this);
     this._handleMoreButtonClick = this._handleMoreButtonClick.bind(this);
   }
 
   init = (ticketsContainer) => {
-    this.ticketsContainer = ticketsContainer;
+    this._ticketsContainer = ticketsContainer;
 
-    render(new FiltersView(), this.ticketsContainer);
-    render(this._offersComponent, this.ticketsContainer);
+    this._renderFilters();
+    render(this._offersComponent, this._ticketsContainer);
     render(new SortView(), this._offersComponent.getElement());
 
     render(this._ticketsListComponent, this._offersComponent.getElement());
@@ -39,6 +42,20 @@ export default class TicketsPresenter {
       this._renderMoreButton();
     }
   };
+
+  _handleFiltersChange(evt) {
+    console.log(evt.target);
+  }
+
+  _renderFilters() {
+    if (this._filtersComponent !== null) {
+      this._filtersComponent = null;
+    }
+
+    this._filtersComponent = new FiltersView(this._filters);
+    render(this._filtersComponent, this._ticketsContainer);
+    this._filtersComponent.setChangeHandler();
+  }
 
   _handleMoreButtonClick() {
     const ticketsCount = this._tickets.length;
