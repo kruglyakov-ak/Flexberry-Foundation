@@ -1,4 +1,5 @@
-import { RenderPosition } from "./const";
+import { RenderPosition, FiltersNames } from "./const";
+import Abstract from './view/abstract';
 
 const createElement = (template) => {
   const newElement = document.createElement("div");
@@ -26,4 +27,49 @@ const render = (component, container, place = RenderPosition.BEFOREEND) => {
   }
 };
 
-export { RenderPosition, createElement, render };
+const remove = (component) => {
+  if (component === null) {
+    return;
+  }
+
+  if (!(component instanceof Abstract)) {
+    throw new Error("Can remove only components");
+  }
+
+  component.getElement().remove();
+  component.removeElement();
+};
+
+const convertFilterToNumber = (filter) => {
+  switch (filter) {
+    case FiltersNames.NON_TRANSFER:
+      return 0;
+    case FiltersNames.ONE_TRANSFER:
+      return 1;
+    case FiltersNames.TWO_TRANSFER:
+      return 2;
+    case FiltersNames.THREE_TRANSFER:
+      return 3;
+  }
+};
+
+const filterTickets = (tickets, filters) => {
+  if (filters.includes(FiltersNames.ALL) || filters.length === 0) {
+    return tickets;
+  }
+  const convertedFilters = filters.map((filter) =>
+    convertFilterToNumber(filter)
+  );
+
+  return tickets.filter(
+    (ticket) =>
+      convertedFilters.some(
+        (filter) => ticket.segments[0].stops.length === filter
+      ) &&
+      convertedFilters.some(
+        (filter) => ticket.segments[1].stops.length === filter
+      )
+  );
+};
+
+export { RenderPosition, createElement, render, filterTickets, remove };
