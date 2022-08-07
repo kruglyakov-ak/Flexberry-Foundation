@@ -4,14 +4,14 @@ import OffersView from "../view/offers";
 import SortView from "../view/sort";
 import TicketView from "../view/ticket";
 import TicketsListView from "../view/tickets-list";
-import { render, remove, filterTickets } from "../utils";
-
-const TICKETS_COUNT_PER_STEP = 5;
+import { render, remove, filterTickets, sortTickets } from "../utils";
+import { TICKETS_COUNT_PER_STEP, RenderPosition } from "../const";
 
 export default class TicketsPresenter {
-  constructor(tickets, filters) {
+  constructor(tickets, filters, sortType) {
     this._tickets = tickets;
     this._filters = filters;
+    this._sortType = sortType;
     this._renderedTicketsCount = TICKETS_COUNT_PER_STEP;
 
     this._filtersComponent = null;
@@ -21,6 +21,7 @@ export default class TicketsPresenter {
     this._moreButtonComponent = null;
 
     this._handleFiltersChange = this._handleFiltersChange.bind(this);
+    this._handleSortTabClick = this._handleSortTabClick.bind(this);
     this._handleMoreButtonClick = this._handleMoreButtonClick.bind(this);
   }
 
@@ -42,7 +43,6 @@ export default class TicketsPresenter {
     }
     remove(this._offersComponent);
     this._renderOffersComponent();
-    console.log(this._filters);
   }
 
   _renderFiltersComponent() {
@@ -66,15 +66,30 @@ export default class TicketsPresenter {
     }
   }
 
+  _handleSortTabClick(evt) {
+    this._sortType = evt.target.name;
+    remove(this._offersComponent);
+    this._renderOffersComponent();
+  }
+
   _renderSortComponent() {
-    this._sortComponent = new SortView();
-    render(this._sortComponent, this._offersComponent.getElement());
+    if (this._sortComponent !== null) {
+      this._sortComponent = null;
+    }
+
+    this._sortComponent = new SortView(this._sortType);
+    render(
+      this._sortComponent,
+      this._offersComponent.getElement(),
+      RenderPosition.AFTERBEGIN
+    );
+    this._sortComponent.setClickHandler(this._handleSortTabClick);
   }
 
   _renderTiketsListComponent() {
     this._ticketsListComponent = new TicketsListView();
     render(this._ticketsListComponent, this._offersComponent.getElement());
-    filterTickets(this._tickets, this._filters)
+    sortTickets(filterTickets(this._tickets, this._filters), this._sortType)
       .slice(0, TICKETS_COUNT_PER_STEP)
       .forEach((ticket) =>
         render(new TicketView(ticket), this._ticketsListComponent.getElement())
