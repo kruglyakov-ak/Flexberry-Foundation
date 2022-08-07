@@ -103,7 +103,7 @@ export default class TicketsPresenter {
       this._renderedTicketsCount + TICKETS_COUNT_PER_STEP
     );
 
-    this._tickets
+    sortTickets(filterTickets(this._tickets, this._filters), this._sortType)
       .slice(this._renderedTicketsCount, increasedRenderedTicketsCount)
       .forEach((ticket) => {
         render(new TicketView(ticket), this._ticketsListComponent.getElement());
