@@ -5,6 +5,8 @@ const RenderPosition = {
   AFTEREND: "afterend",
 };
 
+const TICKETS_COUNT_PER_STEP = 5;
+
 const FiltersNames = {
   ALL: "all",
   NON_TRANSFER: "non-transfer",
@@ -13,4 +15,9 @@ const FiltersNames = {
   THREE_TRANSFER: "three_transfer",
 };
 
-export { RenderPosition, FiltersNames };
+const SortType = {
+  SPEED: "speed",
+  PRICE: "price",
+};
+
+export { RenderPosition, FiltersNames, SortType, TICKETS_COUNT_PER_STEP };
