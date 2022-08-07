@@ -1,4 +1,4 @@
-import {createElement} from "../utils"
+import AbstractView from "./abstract";
 
 const createMainTemplate = () => `
   <main class="main">
@@ -6,24 +6,8 @@ const createMainTemplate = () => `
   </main>
 `;
 
-export default class MainView {
-  constructor() {
-    this._element = null;
-  }
-
+export default class MainView extends AbstractView {
   getTemplate() {
     return createMainTemplate();
-  }
-
-  getElement() {
-    if (!this._element) {
-      this._element = createElement(this.getTemplate());
-    }
-
-    return this._element;
-  }
-
-  removeElement() {
-    this._element = null;
   }
 }

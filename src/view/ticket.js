@@ -1,4 +1,4 @@
-import { createElement } from "../utils";
+import AbstractView from "./abstract";
 
 const createTicketTemplate = (ticket) => `
   <article class="ticket">
@@ -67,25 +67,13 @@ const createTicketTemplate = (ticket) => `
   </article>
 `;
 
-export default class TicketView {
+export default class TicketView extends AbstractView {
   constructor(ticket) {
+    super();
     this.ticket = ticket;
-    this._element = null;
   }
 
   getTemplate() {
     return createTicketTemplate(this.ticket);
-  }
-
-  getElement() {
-    if (!this._element) {
-      this._element = createElement(this.getTemplate());
-    }
-
-    return this._element;
-  }
-
-  removeElement() {
-    this._element = null;
   }
 }

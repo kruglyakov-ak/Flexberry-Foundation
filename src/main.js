@@ -3,7 +3,6 @@ import HeaderView from "./view/header";
 import MainView from "./view/main";
 import { render } from "./utils";
 
-const TICKETS_COUNT_PER_STEP = 5;
 const tickets = [
   {
     price: 15529,
@@ -8576,33 +8575,3 @@ render(new MainView(), bodyElement);
 const mainElement = bodyElement.querySelector(".main");
 
 ticketsPresenter.init(mainElement);
-
-// tickets
-//   .slice(0, TICKETS_COUNT_PER_STEP)
-//   .forEach((ticket) =>
-//     renderTemplate(ticketsListElement, createTicketTemplate(ticket), "beforeend")
-//   );
-
-// if (tickets.length > TICKETS_COUNT_PER_STEP) {
-//   let renderTemplateTicketsCount = TICKETS_COUNT_PER_STEP;
-
-//   renderTemplate(offersSectionElement, createMoreButtonTemplate(), "beforeend");
-
-//   const moreButtonElement = document.querySelector(".more-button");
-
-//   moreButtonElement.addEventListener("click", (evt) => {
-//     evt.preventDefault();
-
-//     tickets
-//       .slice(renderTemplateTicketsCount, renderTemplateTicketsCount + TICKETS_COUNT_PER_STEP)
-//       .forEach((ticket) =>
-//         renderTemplate(ticketsListElement, createTicketTemplate(ticket), "beforeend")
-//       );
-
-//     renderTemplateTicketsCount += TICKETS_COUNT_PER_STEP;
-
-//     if (renderTemplateTicketsCount >= tickets.length) {
-//       moreButtonElement.remove();
-//     }
-//   });
-// }

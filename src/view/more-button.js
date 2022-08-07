@@ -1,4 +1,4 @@
-import {createElement} from "../utils"
+import AbstractView from "./abstract";
 
 const createMoreButtonTemplate = () => (`
   <button type="button" class="more-button">
@@ -6,24 +6,8 @@ const createMoreButtonTemplate = () => (`
   </button>
 `);
 
-export default class MoreButtonView {
-  constructor() {
-    this._element = null;
-  }
-
+export default class MoreButtonView extends AbstractView {
   getTemplate() {
     return createMoreButtonTemplate();
-  }
-
-  getElement() {
-    if (!this._element) {
-      this._element = createElement(this.getTemplate());
-    }
-
-    return this._element;
-  }
-
-  removeElement() {
-    this._element = null;
   }
 }

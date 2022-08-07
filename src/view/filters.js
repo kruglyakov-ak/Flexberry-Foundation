@@ -1,4 +1,4 @@
-import {createElement} from "../utils"
+import AbstractView from "./abstract";
 
 const createFiltersTemplate = () => (`
   <aside class="filters">
@@ -43,24 +43,8 @@ const createFiltersTemplate = () => (`
   </aside>
 `);
 
-export default class FiltersView {
-  constructor() {
-    this._element = null;
-  }
-
+export default class FiltersView extends AbstractView {
   getTemplate() {
     return createFiltersTemplate();
-  }
-
-  getElement() {
-    if (!this._element) {
-      this._element = createElement(this.getTemplate());
-    }
-
-    return this._element;
-  }
-
-  removeElement() {
-    this._element = null;
   }
 }
