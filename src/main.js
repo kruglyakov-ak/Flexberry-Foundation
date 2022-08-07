@@ -2,6 +2,7 @@ import TicketsPresenter from "./presenter/tickets-presenter";
 import HeaderView from "./view/header";
 import MainView from "./view/main";
 import { render } from "./utils";
+import { FiltersNames } from "./const";
 
 const tickets = [
   {
@@ -8565,9 +8566,14 @@ const tickets = [
     ],
   },
 ];
+const filters = [
+  FiltersNames.NON_TRANSFER,
+  FiltersNames.ONE_TRANSFER,
+  FiltersNames.TWO_TRANSFER,
+];
 
 const bodyElement = document.querySelector("body");
-const ticketsPresenter = new TicketsPresenter(tickets);
+const ticketsPresenter = new TicketsPresenter(tickets, filters);
 
 render(new HeaderView(), bodyElement);
 render(new MainView(), bodyElement);
