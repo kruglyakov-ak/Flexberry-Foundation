@@ -1,12 +1,7 @@
-const RenderPosition = {
-  BEFOREBEGIN: 'beforebegin',
-  AFTERBEGIN: 'afterbegin',
-  BEFOREEND: 'beforeend',
-  AFTEREND: 'afterend',
-};
+import { RenderPosition } from "./const";
 
 const createElement = (template) => {
-  const newElement = document.createElement('div');
+  const newElement = document.createElement("div");
   newElement.innerHTML = template;
 
   return newElement.firstElementChild;
@@ -31,4 +26,4 @@ const render = (component, container, place = RenderPosition.BEFOREEND) => {
   }
 };
 
-export {RenderPosition, createElement, render};
+export { RenderPosition, createElement, render };
