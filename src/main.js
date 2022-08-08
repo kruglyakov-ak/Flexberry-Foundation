@@ -1,8 +1,8 @@
 import Presenter from "./presenter/presenter";
+import Model from "./model/model";
 import HeaderView from "./view/header";
 import MainView from "./view/main";
 import { render } from "./utils/render";
-import { FiltersNames, SortType } from "./const";
 
 const tickets = [
   {
@@ -8566,16 +8566,12 @@ const tickets = [
     ],
   },
 ];
-const filters = [
-  FiltersNames.NON_TRANSFER,
-  FiltersNames.ONE_TRANSFER,
-  FiltersNames.TWO_TRANSFER,
-];
 
-const sortType = SortType.PRICE;
+const model = new Model();
+model.setTickets(tickets);
+const presenter = new Presenter(model);
 
 const bodyElement = document.querySelector("body");
-const presenter = new Presenter(tickets, filters, sortType);
 
 render(new HeaderView(), bodyElement);
 render(new MainView(), bodyElement);

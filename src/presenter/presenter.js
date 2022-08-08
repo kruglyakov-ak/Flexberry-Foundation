@@ -9,10 +9,8 @@ import { filterTickets, sortTickets } from "../utils/common";
 import { TICKETS_COUNT_PER_STEP, RenderPosition } from "../const";
 
 export default class Presenter {
-  constructor(tickets, filters, sortType) {
-    this._tickets = tickets;
-    this._filters = filters;
-    this._sortType = sortType;
+  constructor(model) {
+    this._model = model;
     this._renderedTicketsCount = TICKETS_COUNT_PER_STEP;
 
     this._filtersComponent = null;
@@ -29,21 +27,29 @@ export default class Presenter {
     this._renderOffersComponent();
   };
 
+  _getTickets() {
+    return sortTickets(
+      filterTickets(this._model.getTickets(), this._model.getFilters()),
+      this._model.getSortType()
+    );
+  }
+
   _handleFiltersChange = (evt) => {
-    if (this._filters.includes(evt.target.name)) {
-      const index = this._filters.findIndex(
-        (filter) => filter === evt.target.name
-      );
-      this._filters.splice(index, 1);
+    const filters = this._model.getFilters();
+    if (filters.includes(evt.target.name)) {
+      const index = filters.findIndex((filter) => filter === evt.target.name);
+      filters.splice(index, 1);
     } else {
-      this._filters.push(evt.target.name);
+      filters.push(evt.target.name);
     }
+
+    this._model.setFilters(filters);
     remove(this._offersComponent);
     this._renderOffersComponent();
   };
 
   _renderFiltersComponent() {
-    this._filtersComponent = new FiltersView(this._filters);
+    this._filtersComponent = new FiltersView(this._model.getFilters());
     render(this._filtersComponent, this._ticketsContainer);
     this._filtersComponent.setChangeHandler(this._handleFiltersChange);
   }
@@ -58,13 +64,13 @@ export default class Presenter {
     this._renderSortComponent();
     this._renderTiketsListComponent();
 
-    if (this._tickets.length > TICKETS_COUNT_PER_STEP) {
+    if (this._getTickets().length > TICKETS_COUNT_PER_STEP) {
       this._renderMoreButtonComponent();
     }
   }
 
   _handleSortTabClick = (evt) => {
-    this._sortType = evt.target.name;
+    this._model.setSortType(evt.target.name);
     remove(this._offersComponent);
     this._renderOffersComponent();
   };
@@ -74,7 +80,7 @@ export default class Presenter {
       this._sortComponent = null;
     }
 
-    this._sortComponent = new SortView(this._sortType);
+    this._sortComponent = new SortView(this._model.getSortType());
     render(
       this._sortComponent,
       this._offersComponent.getElement(),
@@ -86,7 +92,7 @@ export default class Presenter {
   _renderTiketsListComponent() {
     this._ticketsListComponent = new TicketsListView();
     render(this._ticketsListComponent, this._offersComponent.getElement());
-    sortTickets(filterTickets(this._tickets, this._filters), this._sortType)
+    this._getTickets()
       .slice(0, TICKETS_COUNT_PER_STEP)
       .forEach((ticket) =>
         render(new TicketView(ticket), this._ticketsListComponent.getElement())
@@ -94,13 +100,13 @@ export default class Presenter {
   }
 
   _handleMoreButtonClick = () => {
-    const ticketsCount = this._tickets.length;
+    const ticketsCount = this._getTickets().length;
     const increasedRenderedTicketsCount = Math.min(
       ticketsCount,
       this._renderedTicketsCount + TICKETS_COUNT_PER_STEP
     );
 
-    sortTickets(filterTickets(this._tickets, this._filters), this._sortType)
+    this._getTickets()
       .slice(this._renderedTicketsCount, increasedRenderedTicketsCount)
       .forEach((ticket) => {
         render(new TicketView(ticket), this._ticketsListComponent.getElement());
