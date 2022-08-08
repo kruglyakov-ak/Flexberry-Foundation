@@ -1,44 +1,4 @@
-import { RenderPosition, FiltersNames, SortType } from "./const";
-import Abstract from "./view/abstract";
-
-const createElement = (template) => {
-  const newElement = document.createElement("div");
-  newElement.innerHTML = template;
-
-  return newElement.firstElementChild;
-};
-
-const render = (component, container, place = RenderPosition.BEFOREEND) => {
-  const element = component.getElement();
-
-  switch (place) {
-    case RenderPosition.BEFOREBEGIN:
-      container.before(element);
-      break;
-    case RenderPosition.AFTERBEGIN:
-      container.prepend(element);
-      break;
-    case RenderPosition.BEFOREEND:
-      container.append(element);
-      break;
-    case RenderPosition.AFTEREND:
-      container.after(element);
-      break;
-  }
-};
-
-const remove = (component) => {
-  if (component === null) {
-    return;
-  }
-
-  if (!(component instanceof Abstract)) {
-    throw new Error("Can remove only components");
-  }
-
-  component.getElement().remove();
-  component.removeElement();
-};
+import { FiltersNames, SortType } from "../const";
 
 const convertFilterToNumber = (filter) => {
   switch (filter) {
@@ -106,13 +66,4 @@ const humanizeDuration = (duration) => {
   return `${hours}ч ${minutes}м`;
 };
 
-export {
-  RenderPosition,
-  createElement,
-  render,
-  filterTickets,
-  remove,
-  sortTickets,
-  convertTransfer,
-  humanizeDuration,
-};
+export { filterTickets, sortTickets, convertTransfer, humanizeDuration };

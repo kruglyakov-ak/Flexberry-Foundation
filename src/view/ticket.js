@@ -1,5 +1,5 @@
 import AbstractView from "./abstract";
-import { humanizeDuration, convertTransfer } from "../utils";
+import { humanizeDuration, convertTransfer } from "../utils/common";
 import dayjs from "dayjs";
 
 const createTicketTemplate = (ticket) => `

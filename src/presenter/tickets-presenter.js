@@ -4,7 +4,8 @@ import OffersView from "../view/offers";
 import SortView from "../view/sort";
 import TicketView from "../view/ticket";
 import TicketsListView from "../view/tickets-list";
-import { render, remove, filterTickets, sortTickets } from "../utils";
+import { render, remove } from "../utils/render";
+import { filterTickets, sortTickets } from "../utils/common";
 import { TICKETS_COUNT_PER_STEP, RenderPosition } from "../const";
 
 export default class TicketsPresenter {

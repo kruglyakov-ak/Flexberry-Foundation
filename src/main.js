@@ -1,7 +1,7 @@
 import TicketsPresenter from "./presenter/tickets-presenter";
 import HeaderView from "./view/header";
 import MainView from "./view/main";
-import { render } from "./utils";
+import { render } from "./utils/render";
 import { FiltersNames, SortType } from "./const";
 
 const tickets = [
