@@ -11,6 +11,7 @@ export default class Moveis extends AbstractObserver {
       FiltersNames.TWO_TRANSFER,
     ];
     this._sortType = SortType.PRICE;
+    this._isTicketsLoaded = false;
   }
 
   setTickets(tickets) {
@@ -35,5 +36,13 @@ export default class Moveis extends AbstractObserver {
 
   getSortType() {
     return this._sortType;
+  }
+
+  setIsTicketsLoaded(isTicketsLoaded) {
+    this._isTicketsLoaded = isTicketsLoaded;
+  }
+
+  getIsTicketsLoaded() {
+    return this._isTicketsLoaded;
   }
 }

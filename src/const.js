@@ -20,4 +20,12 @@ const SortType = {
   PRICE: "price",
 };
 
-export { RenderPosition, FiltersNames, SortType, TICKETS_COUNT_PER_STEP };
+const END_POINT = " http://localhost:300";
+
+export {
+  RenderPosition,
+  FiltersNames,
+  SortType,
+  TICKETS_COUNT_PER_STEP,
+  END_POINT,
+};

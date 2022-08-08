@@ -4,25 +4,29 @@ import OffersView from "../view/offers";
 import SortView from "../view/sort";
 import TicketView from "../view/ticket";
 import TicketsListView from "../view/tickets-list";
+import TicketsListEmptyView from "../view/tickets-list-empty";
+import LoadingView from "../view/loading";
 import { render, remove } from "../utils/render";
 import { filterTickets, sortTickets } from "../utils/common";
 import { TICKETS_COUNT_PER_STEP, RenderPosition } from "../const";
 
 export default class Presenter {
-  constructor(model) {
+  constructor(model, ticketsContainer) {
     this._model = model;
     this._renderedTicketsCount = TICKETS_COUNT_PER_STEP;
+    this._ticketsContainer = ticketsContainer;
 
     this._filtersComponent = null;
     this._offersComponent = null;
-    this._sortComponent = null;
-    this._ticketsListComponent = null;
-    this._moreButtonComponent = null;
   }
 
-  init = (ticketsContainer) => {
-    this._ticketsContainer = ticketsContainer;
-
+  init = () => {
+    if (this._filtersComponent === null && this._offersComponent === null) {
+      this._renderFiltersComponent();
+      this._renderOffersComponent();
+    }
+    remove(this._filtersComponent);
+    remove(this._offersComponent);
     this._renderFiltersComponent();
     this._renderOffersComponent();
   };
@@ -55,13 +59,20 @@ export default class Presenter {
   }
 
   _renderOffersComponent() {
-    if (this._offersComponent !== null) {
-      this._offersComponent = null;
-    }
-
     this._offersComponent = new OffersView();
     render(this._offersComponent, this._ticketsContainer);
     this._renderSortComponent();
+
+    if (!this._model.getIsTicketsLoaded()) {
+      this._renderLoadingComponent();
+      return;
+    }
+
+    if (this._getTickets().length === 0) {
+      this._renderEmptyTicketsListComponent();
+      return;
+    }
+
     this._renderTiketsListComponent();
 
     if (this._getTickets().length > TICKETS_COUNT_PER_STEP) {
@@ -76,10 +87,6 @@ export default class Presenter {
   };
 
   _renderSortComponent() {
-    if (this._sortComponent !== null) {
-      this._sortComponent = null;
-    }
-
     this._sortComponent = new SortView(this._model.getSortType());
     render(
       this._sortComponent,
@@ -87,6 +94,16 @@ export default class Presenter {
       RenderPosition.AFTERBEGIN
     );
     this._sortComponent.setClickHandler(this._handleSortTabClick);
+  }
+
+  _renderLoadingComponent() {
+    this._loadedComponent = new LoadingView();
+    render(this._loadedComponent, this._offersComponent.getElement());
+  }
+
+  _renderEmptyTicketsListComponent() {
+    this._ticketsListEmptyComponent = new TicketsListEmptyView();
+    render(this._ticketsListEmptyComponent, this._offersComponent.getElement());
   }
 
   _renderTiketsListComponent() {
