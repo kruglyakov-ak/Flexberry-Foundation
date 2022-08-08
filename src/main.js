@@ -1,4 +1,4 @@
-import TicketsPresenter from "./presenter/tickets-presenter";
+import Presenter from "./presenter/presenter";
 import HeaderView from "./view/header";
 import MainView from "./view/main";
 import { render } from "./utils/render";
@@ -8575,11 +8575,11 @@ const filters = [
 const sortType = SortType.PRICE;
 
 const bodyElement = document.querySelector("body");
-const ticketsPresenter = new TicketsPresenter(tickets, filters, sortType);
+const presenter = new Presenter(tickets, filters, sortType);
 
 render(new HeaderView(), bodyElement);
 render(new MainView(), bodyElement);
 
 const mainElement = bodyElement.querySelector(".main");
 
-ticketsPresenter.init(mainElement);
+presenter.init(mainElement);

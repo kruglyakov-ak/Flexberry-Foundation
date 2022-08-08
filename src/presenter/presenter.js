@@ -8,7 +8,7 @@ import { render, remove } from "../utils/render";
 import { filterTickets, sortTickets } from "../utils/common";
 import { TICKETS_COUNT_PER_STEP, RenderPosition } from "../const";
 
-export default class TicketsPresenter {
+export default class Presenter {
   constructor(tickets, filters, sortType) {
     this._tickets = tickets;
     this._filters = filters;
