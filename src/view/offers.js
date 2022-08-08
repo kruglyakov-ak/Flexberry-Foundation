@@ -1,25 +1,9 @@
-import {createElement} from "../utils"
+import AbstractView from "./abstract";
 
 const createOffersTemplate = () => `<section class="offers"></section>`;
 
-export default class OffersView {
-  constructor() {
-    this._element = null;
-  }
-
+export default class OffersView extends AbstractView {
   getTemplate() {
     return createOffersTemplate();
-  }
-
-  getElement() {
-    if (!this._element) {
-      this._element = createElement(this.getTemplate());
-    }
-
-    return this._element;
-  }
-
-  removeElement() {
-    this._element = null;
   }
 }

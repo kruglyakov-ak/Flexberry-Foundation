@@ -1,43 +1,46 @@
-import {createElement} from "../utils"
+import AbstractView from "./abstract";
+import { SortType } from "../const";
 
-const createSortTemplate = () => (`
-  <ul class="sort-tabs">
-    <li class="sort-tabs__item">
-      <button class="sort-tabs__button sort-tabs__button--active" type="button">
-        Самый дешевый
-      </button>
-    </li>
-    <li class="sort-tabs__item">
-      <button class="sort-tabs__button" type="button">
-        Самый быстрый
-      </button>
-    </li>
-    <li class="sort-tabs__item">
-      <button class="sort-tabs__button" type="button">
-        Оптимальный
-      </button>
-    </li>
-  </ul>
-`);
+const createSortTemplate = (sortType) => `
+<ul class="sort-tabs">
+<li class="sort-tabs__item">
+  <button
+    class="sort-tabs__button ${sortType === SortType.PRICE ? "sort-tabs__button--active" : ""}"
+    name=${SortType.PRICE}
+    type="button"
+  >
+    Самый дешевый
+  </button>
+</li>
+<li class="sort-tabs__item">
+  <button
+    class="sort-tabs__button ${sortType === SortType.SPEED ? "sort-tabs__button--active" : ""}"
+    type="button"
+    name=${SortType.SPEED}
+  >
+    Самый быстрый
+  </button>
+</li>
+</ul>
+`;
 
-export default class SortView {
-  constructor() {
-    this._element = null;
+export default class SortView extends AbstractView {
+  constructor(sortType) {
+    super();
+    this._sortType = sortType;
   }
 
   getTemplate() {
-    return createSortTemplate();
+    return createSortTemplate(this._sortType);
   }
 
-  getElement() {
-    if (!this._element) {
-      this._element = createElement(this.getTemplate());
-    }
-
-    return this._element;
+  _clickHandler = (evt) => {
+    evt.preventDefault();
+    this._callback.sortTabClick(evt);
   }
 
-  removeElement() {
-    this._element = null;
+  setClickHandler(callback) {
+    this._callback.sortTabClick = callback;
+    this.getElement().addEventListener("click", this._clickHandler);
   }
 }

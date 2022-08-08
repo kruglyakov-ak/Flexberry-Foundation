@@ -1,12 +1,8 @@
-const RenderPosition = {
-  BEFOREBEGIN: 'beforebegin',
-  AFTERBEGIN: 'afterbegin',
-  BEFOREEND: 'beforeend',
-  AFTEREND: 'afterend',
-};
+import Abstract from "../view/abstract";
+import { RenderPosition } from "../const";
 
 const createElement = (template) => {
-  const newElement = document.createElement('div');
+  const newElement = document.createElement("div");
   newElement.innerHTML = template;
 
   return newElement.firstElementChild;
@@ -31,4 +27,17 @@ const render = (component, container, place = RenderPosition.BEFOREEND) => {
   }
 };
 
-export {RenderPosition, createElement, render};
+const remove = (component) => {
+  if (component === null) {
+    return;
+  }
+
+  if (!(component instanceof Abstract)) {
+    throw new Error("Can remove only components");
+  }
+
+  component.getElement().remove();
+  component.removeElement();
+};
+
+export { createElement, render, remove };
