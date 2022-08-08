@@ -20,7 +20,7 @@ const SortType = {
   PRICE: "price",
 };
 
-const END_POINT = " http://localhost:300";
+const END_POINT = " http://localhost:3004";
 
 export {
   RenderPosition,
