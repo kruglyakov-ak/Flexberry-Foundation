@@ -28,14 +28,13 @@ export default class SortView extends AbstractView {
   constructor(sortType) {
     super();
     this._sortType = sortType;
-    this._clickHandler = this._clickHandler.bind(this);
   }
 
   getTemplate() {
     return createSortTemplate(this._sortType);
   }
 
-  _clickHandler(evt) {
+  _clickHandler = (evt) => {
     evt.preventDefault();
     this._callback.sortTabClick(evt);
   }

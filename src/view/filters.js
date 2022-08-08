@@ -68,14 +68,13 @@ export default class FiltersView extends AbstractView {
   constructor(filters) {
     super();
     this._filters = filters;
-    this._changeHandler = this._changeHandler.bind(this);
   }
 
   getTemplate() {
     return createFiltersTemplate(this._filters);
   }
 
-  _changeHandler(evt) {
+  _changeHandler = (evt) => {
     this._callback.change(evt);
   }
 

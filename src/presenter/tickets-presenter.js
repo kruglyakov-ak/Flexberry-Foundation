@@ -19,10 +19,6 @@ export default class TicketsPresenter {
     this._sortComponent = null;
     this._ticketsListComponent = null;
     this._moreButtonComponent = null;
-
-    this._handleFiltersChange = this._handleFiltersChange.bind(this);
-    this._handleSortTabClick = this._handleSortTabClick.bind(this);
-    this._handleMoreButtonClick = this._handleMoreButtonClick.bind(this);
   }
 
   init = (ticketsContainer) => {
@@ -32,7 +28,7 @@ export default class TicketsPresenter {
     this._renderOffersComponent();
   };
 
-  _handleFiltersChange(evt) {
+  _handleFiltersChange = (evt) => {
     if (this._filters.includes(evt.target.name)) {
       const index = this._filters.findIndex(
         (filter) => filter === evt.target.name
@@ -43,7 +39,7 @@ export default class TicketsPresenter {
     }
     remove(this._offersComponent);
     this._renderOffersComponent();
-  }
+  };
 
   _renderFiltersComponent() {
     this._filtersComponent = new FiltersView(this._filters);
@@ -66,11 +62,11 @@ export default class TicketsPresenter {
     }
   }
 
-  _handleSortTabClick(evt) {
+  _handleSortTabClick = (evt) => {
     this._sortType = evt.target.name;
     remove(this._offersComponent);
     this._renderOffersComponent();
-  }
+  };
 
   _renderSortComponent() {
     if (this._sortComponent !== null) {
@@ -96,7 +92,7 @@ export default class TicketsPresenter {
       );
   }
 
-  _handleMoreButtonClick() {
+  _handleMoreButtonClick = () => {
     const ticketsCount = this._tickets.length;
     const increasedRenderedTicketsCount = Math.min(
       ticketsCount,
@@ -114,7 +110,7 @@ export default class TicketsPresenter {
     if (this._renderedTicketsCount >= ticketsCount) {
       remove(this._moreButtonComponent);
     }
-  }
+  };
 
   _renderMoreButtonComponent() {
     this._moreButtonComponent = new MoreButtonView();
